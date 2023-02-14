@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipe_to_refresh_chat_conversation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kotlinCode.ui.fragments.ChatListFragment"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".kotlinCode.ui.fragments.ChatListFragment">
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottie_animation_chat_list"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/loading" />
+
+        <!-- app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" -->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_conversations"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/tv_message_chatlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:visibility="visible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No Chat Conversation?"
+                android:layout_gravity="center"
+                android:textSize="22sp"
+                android:textColor="#737373" />
+
+            <TextView
+                android:padding="20dp"
+                android:textAlignment="center"
+                android:visibility="visible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Due some internal changes old conversation are no more but your all the messages are safe. Start a new conversation and find your older message"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:textColor="#272727" />
+
+            <Button
+                android:id="@+id/btn_check_friend_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check Friend List" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

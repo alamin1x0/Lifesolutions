@@ -1,0 +1,96 @@
+com.lifesolutions.bd.app-jetified-shimmer-0.5.0-0 /home/alamin/.gradle/caches/transforms-3/0813b13224d1ed72c4e3d91d423ae83a/transformed/jetified-shimmer-0.5.0/res
+com.lifesolutions.bd.app-jetified-emoji2-1.2.0-1 /home/alamin/.gradle/caches/transforms-3/096fda3a93dfee297ac47e10d41035c1/transformed/jetified-emoji2-1.2.0/res
+com.lifesolutions.bd.app-databinding-adapters-7.3.1-2 /home/alamin/.gradle/caches/transforms-3/0a1c3f6eead58a5454a243541d3ce033/transformed/databinding-adapters-7.3.1/res
+com.lifesolutions.bd.app-recyclerview-1.2.1-3 /home/alamin/.gradle/caches/transforms-3/0b0bc29de18d2946c8522e483050aa88/transformed/recyclerview-1.2.1/res
+com.lifesolutions.bd.app-jetified-lifecycle-viewmodel-savedstate-2.5.1-4 /home/alamin/.gradle/caches/transforms-3/0c7184f9b8518066b1749f1ca4f99d77/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/res
+com.lifesolutions.bd.app-jetified-iosdialog-1.0-5 /home/alamin/.gradle/caches/transforms-3/15e75db6f3d80243cd8de5d00e8ffe81/transformed/jetified-iosdialog-1.0/res
+com.lifesolutions.bd.app-navigation-common-2.5.3-6 /home/alamin/.gradle/caches/transforms-3/16f2904b230668078dbca538a6ca34a9/transformed/navigation-common-2.5.3/res
+com.lifesolutions.bd.app-jetified-camera-core-1.3.0-alpha03-7 /home/alamin/.gradle/caches/transforms-3/174dc27cc80a751394d77d5c365af8d0/transformed/jetified-camera-core-1.3.0-alpha03/res
+com.lifesolutions.bd.app-jetified-ccp-2.5.1-8 /home/alamin/.gradle/caches/transforms-3/1b1b884220accf31d1f0f673a4194811/transformed/jetified-ccp-2.5.1/res
+com.lifesolutions.bd.app-jetified-LikeButton-0.2.3-9 /home/alamin/.gradle/caches/transforms-3/1b608de8831d159efe5e0cc088ef304b/transformed/jetified-LikeButton-0.2.3/res
+com.lifesolutions.bd.app-jetified-exoplayer-core-2.18.2-10 /home/alamin/.gradle/caches/transforms-3/1cea81e2f21b7335c9f05a242867a3fe/transformed/jetified-exoplayer-core-2.18.2/res
+com.lifesolutions.bd.app-jetified-firebase-common-20.2.0-11 /home/alamin/.gradle/caches/transforms-3/1dafe97cb5edfc1cc229db84f04d2807/transformed/jetified-firebase-common-20.2.0/res
+com.lifesolutions.bd.app-jetified-exoplayer-ui-2.18.2-12 /home/alamin/.gradle/caches/transforms-3/1ea375508e936ee1c18ca88b28824e81/transformed/jetified-exoplayer-ui-2.18.2/res
+com.lifesolutions.bd.app-drawerlayout-1.1.1-13 /home/alamin/.gradle/caches/transforms-3/201a4bf90e1b990e65a9ff8b680f46bd/transformed/drawerlayout-1.1.1/res
+com.lifesolutions.bd.app-transition-1.4.1-14 /home/alamin/.gradle/caches/transforms-3/2100b0c741234b89cfeb7788ef588ae7/transformed/transition-1.4.1/res
+com.lifesolutions.bd.app-jetified-facebook-login-5.15.3-15 /home/alamin/.gradle/caches/transforms-3/210747a2bae0c99a5604e80359419b75/transformed/jetified-facebook-login-5.15.3/res
+com.lifesolutions.bd.app-navigation-runtime-ktx-2.5.3-16 /home/alamin/.gradle/caches/transforms-3/23cc7ba627af3d1d352d05feff3d3bf8/transformed/navigation-runtime-ktx-2.5.3/res
+com.lifesolutions.bd.app-jetified-core-ktx-1.9.0-17 /home/alamin/.gradle/caches/transforms-3/2600feb3adfddd97276c1a633f5097b2/transformed/jetified-core-ktx-1.9.0/res
+com.lifesolutions.bd.app-jetified-savedstate-1.2.0-18 /home/alamin/.gradle/caches/transforms-3/27e3b0e1e549104a2bb36b494d602f6f/transformed/jetified-savedstate-1.2.0/res
+com.lifesolutions.bd.app-jetified-core-10.0.5-19 /home/alamin/.gradle/caches/transforms-3/2cda47df55b84268ac85c1c126183f4d/transformed/jetified-core-10.0.5/res
+com.lifesolutions.bd.app-navigation-fragment-ktx-2.5.3-20 /home/alamin/.gradle/caches/transforms-3/31a7d1b29a702339e80c8d58335f9493/transformed/navigation-fragment-ktx-2.5.3/res
+com.lifesolutions.bd.app-jetified-camera-extensions-1.2.1-21 /home/alamin/.gradle/caches/transforms-3/34749a25b7b1286ac5507b4623463a98/transformed/jetified-camera-extensions-1.2.1/res
+com.lifesolutions.bd.app-jetified-play-services-ads-21.5.0-22 /home/alamin/.gradle/caches/transforms-3/3584ad5059c3984713992397a3b0124a/transformed/jetified-play-services-ads-21.5.0/res
+com.lifesolutions.bd.app-jetified-circleimageview-3.1.0-23 /home/alamin/.gradle/caches/transforms-3/36c943cebf675469cf59e65ae8f64598/transformed/jetified-circleimageview-3.1.0/res
+com.lifesolutions.bd.app-jetified-camera-camera2-1.2.1-24 /home/alamin/.gradle/caches/transforms-3/388827dc88e8eaf7ea86663ec58fe451/transformed/jetified-camera-camera2-1.2.1/res
+com.lifesolutions.bd.app-jetified-viewpager2-1.0.0-25 /home/alamin/.gradle/caches/transforms-3/38a502ea6700de8c771e375e9b792e85/transformed/jetified-viewpager2-1.0.0/res
+com.lifesolutions.bd.app-navigation-fragment-2.5.3-26 /home/alamin/.gradle/caches/transforms-3/3bad5314f0d3754f5b60288f0ef8d8c0/transformed/navigation-fragment-2.5.3/res
+com.lifesolutions.bd.app-jetified-activity-1.6.0-27 /home/alamin/.gradle/caches/transforms-3/3bc67c796471ea7f9a436c0223dbf42d/transformed/jetified-activity-1.6.0/res
+com.lifesolutions.bd.app-jetified-recyclerview-kaiteki-1.0.10-28 /home/alamin/.gradle/caches/transforms-3/3befd7a4d63ae6a8cd4908aaac90a76c/transformed/jetified-recyclerview-kaiteki-1.0.10/res
+com.lifesolutions.bd.app-jetified-appcompat-resources-1.6.1-29 /home/alamin/.gradle/caches/transforms-3/3ce163baccc906a6c2e4247ec7a8c286/transformed/jetified-appcompat-resources-1.6.1/res
+com.lifesolutions.bd.app-jetified-bottomsheet-imagepicker-1.1.2-30 /home/alamin/.gradle/caches/transforms-3/3d53c1ad97185c5c63ad3ac0fbb3c8b9/transformed/jetified-bottomsheet-imagepicker-1.1.2/res
+com.lifesolutions.bd.app-jetified-lottie-4.2.2-31 /home/alamin/.gradle/caches/transforms-3/3e67a3edcfe4a7d04275069493b574cd/transformed/jetified-lottie-4.2.2/res
+com.lifesolutions.bd.app-jetified-facebook-messenger-5.15.3-32 /home/alamin/.gradle/caches/transforms-3/3f866b09c67546f371c81ba706e2579b/transformed/jetified-facebook-messenger-5.15.3/res
+com.lifesolutions.bd.app-lifecycle-viewmodel-2.5.1-33 /home/alamin/.gradle/caches/transforms-3/3fa74dba9157d285e9f9ff798411f857/transformed/lifecycle-viewmodel-2.5.1/res
+com.lifesolutions.bd.app-jetified-lifecycle-service-2.4.0-34 /home/alamin/.gradle/caches/transforms-3/4713bd75ed4fb626aa1f5360cf2b79b2/transformed/jetified-lifecycle-service-2.4.0/res
+com.lifesolutions.bd.app-jetified-savedstate-ktx-1.2.0-35 /home/alamin/.gradle/caches/transforms-3/4d5f9677b6494bd5be9619a8deabb965/transformed/jetified-savedstate-ktx-1.2.0/res
+com.lifesolutions.bd.app-jetified-play-services-auth-20.4.1-36 /home/alamin/.gradle/caches/transforms-3/4e0af08948e03b57ee26f74714481328/transformed/jetified-play-services-auth-20.4.1/res
+com.lifesolutions.bd.app-jetified-camera-video-1.3.0-alpha03-37 /home/alamin/.gradle/caches/transforms-3/5074ddfa6a6c0d7132bd2f95474331f2/transformed/jetified-camera-video-1.3.0-alpha03/res
+com.lifesolutions.bd.app-jetified-paging-rxjava3-3.0.0-38 /home/alamin/.gradle/caches/transforms-3/563ebad9bef3bbfda799a6b4126dfaa6/transformed/jetified-paging-rxjava3-3.0.0/res
+com.lifesolutions.bd.app-webkit-1.6.0-39 /home/alamin/.gradle/caches/transforms-3/5a6ecd9b616a0760fe281a2f0ea4179e/transformed/webkit-1.6.0/res
+com.lifesolutions.bd.app-lifecycle-livedata-2.4.0-40 /home/alamin/.gradle/caches/transforms-3/5ac899a34ac4d3b567fbd792c0b641bb/transformed/lifecycle-livedata-2.4.0/res
+com.lifesolutions.bd.app-appcompat-1.6.1-41 /home/alamin/.gradle/caches/transforms-3/5e1b15c3e7d9a9a1fc987bc53298488d/transformed/appcompat-1.6.1/res
+com.lifesolutions.bd.app-jetified-camera-lifecycle-1.3.0-alpha03-42 /home/alamin/.gradle/caches/transforms-3/5e65d2a975dcb0a77fd6bc685ea4e87d/transformed/jetified-camera-lifecycle-1.3.0-alpha03/res
+com.lifesolutions.bd.app-jetified-glide-4.14.2-43 /home/alamin/.gradle/caches/transforms-3/6163859431536edeec1633effaa2aecb/transformed/jetified-glide-4.14.2/res
+com.lifesolutions.bd.app-jetified-mediation-test-suite-3.0.0-44 /home/alamin/.gradle/caches/transforms-3/637b39cddf2929c39db65215aa8b405a/transformed/jetified-mediation-test-suite-3.0.0/res
+com.lifesolutions.bd.app-work-runtime-2.7.0-45 /home/alamin/.gradle/caches/transforms-3/6b2b394f7f2e2946ebb68dbf4ac7ec2c/transformed/work-runtime-2.7.0/res
+com.lifesolutions.bd.app-jetified-camera-view-1.3.0-alpha03-46 /home/alamin/.gradle/caches/transforms-3/713f77b7d1342f55b56640de48edd9e2/transformed/jetified-camera-view-1.3.0-alpha03/res
+com.lifesolutions.bd.app-jetified-firebase-messaging-23.1.1-47 /home/alamin/.gradle/caches/transforms-3/7189d67139e96d5f477b5f06f21a58b7/transformed/jetified-firebase-messaging-23.1.1/res
+com.lifesolutions.bd.app-jetified-lifecycle-process-2.4.1-48 /home/alamin/.gradle/caches/transforms-3/77ecf16c280a738dfeca02c37a9a7dac/transformed/jetified-lifecycle-process-2.4.1/res
+com.lifesolutions.bd.app-databinding-runtime-7.3.1-49 /home/alamin/.gradle/caches/transforms-3/7b358d03645c545f659507e2a756da13/transformed/databinding-runtime-7.3.1/res
+com.lifesolutions.bd.app-jetified-play-services-base-18.0.1-50 /home/alamin/.gradle/caches/transforms-3/7d1fa53208c3525882ce94ac96eb98a5/transformed/jetified-play-services-base-18.0.1/res
+com.lifesolutions.bd.app-material-1.8.0-51 /home/alamin/.gradle/caches/transforms-3/7d48a09afbb1f09d200889c3de2a2c55/transformed/material-1.8.0/res
+com.lifesolutions.bd.app-jetified-startup-runtime-1.1.1-52 /home/alamin/.gradle/caches/transforms-3/7d5b75d3ee10250d0658edf18586bbea/transformed/jetified-startup-runtime-1.1.1/res
+com.lifesolutions.bd.app-jetified-fragment-ktx-1.5.4-53 /home/alamin/.gradle/caches/transforms-3/800f8855fcbd2c1dbe85af7c826ae64f/transformed/jetified-fragment-ktx-1.5.4/res
+com.lifesolutions.bd.app-coordinatorlayout-1.1.0-54 /home/alamin/.gradle/caches/transforms-3/86882e0f1c54549d69b1a4f999d1a53f/transformed/coordinatorlayout-1.1.0/res
+com.lifesolutions.bd.app-jetified-activity-ktx-1.6.0-55 /home/alamin/.gradle/caches/transforms-3/8749a6bd3c7ceb73ff5c013153858346/transformed/jetified-activity-ktx-1.6.0/res
+com.lifesolutions.bd.app-jetified-voice-sdk-3.0.0-56 /home/alamin/.gradle/caches/transforms-3/87b75e45fc320962d712330c60fada41/transformed/jetified-voice-sdk-3.0.0/res
+com.lifesolutions.bd.app-jetified-jiecaovideoplayer-5.7-57 /home/alamin/.gradle/caches/transforms-3/8a841425508e62e3b1800d54f9596b99/transformed/jetified-jiecaovideoplayer-5.7/res
+com.lifesolutions.bd.app-constraintlayout-2.1.4-58 /home/alamin/.gradle/caches/transforms-3/8b2f204a3efd4e88cf2f5965aa07a6cb/transformed/constraintlayout-2.1.4/res
+com.lifesolutions.bd.app-cardview-1.0.0-59 /home/alamin/.gradle/caches/transforms-3/8e1e9120b36c226945f93d1b1a489b73/transformed/cardview-1.0.0/res
+com.lifesolutions.bd.app-fragment-1.5.4-60 /home/alamin/.gradle/caches/transforms-3/90a8bc0fcc93569072c0ec183fd9eeee/transformed/fragment-1.5.4/res
+com.lifesolutions.bd.app-jetified-annotation-experimental-1.3.0-61 /home/alamin/.gradle/caches/transforms-3/9aaf36a2591eb22d8309bddb3f2a17fc/transformed/jetified-annotation-experimental-1.3.0/res
+com.lifesolutions.bd.app-navigation-common-ktx-2.5.3-62 /home/alamin/.gradle/caches/transforms-3/9b309f37d9c425963e0e0358c9c2bfca/transformed/navigation-common-ktx-2.5.3/res
+com.lifesolutions.bd.app-media-1.6.0-63 /home/alamin/.gradle/caches/transforms-3/9b3ea93e0a7f892405d03452900bf432/transformed/media-1.6.0/res
+com.lifesolutions.bd.app-lifecycle-livedata-core-2.5.1-64 /home/alamin/.gradle/caches/transforms-3/9bea4c7de9755f54c9c3d0e6f1159b4d/transformed/lifecycle-livedata-core-2.5.1/res
+com.lifesolutions.bd.app-jetified-facebook-share-5.15.3-65 /home/alamin/.gradle/caches/transforms-3/a05e0885270fdd68633ce2d31adfff27/transformed/jetified-facebook-share-5.15.3/res
+com.lifesolutions.bd.app-jetified-facebook-common-5.15.3-66 /home/alamin/.gradle/caches/transforms-3/ab618c8cacd385b2bea2a8fc48a6137f/transformed/jetified-facebook-common-5.15.3/res
+com.lifesolutions.bd.app-jetified-lifecycle-runtime-ktx-2.5.1-67 /home/alamin/.gradle/caches/transforms-3/ac52299bf2a70418c66cf74f4335071a/transformed/jetified-lifecycle-runtime-ktx-2.5.1/res
+com.lifesolutions.bd.app-core-1.9.0-68 /home/alamin/.gradle/caches/transforms-3/b29b89ca1970d67096b3fa7004092ece/transformed/core-1.9.0/res
+com.lifesolutions.bd.app-jetified-android-image-cropper-2.8.0-69 /home/alamin/.gradle/caches/transforms-3/b61e9ea26b6f22dfc7d1544627cff27e/transformed/jetified-android-image-cropper-2.8.0/res
+com.lifesolutions.bd.app-jetified-emoji2-views-helper-1.2.0-70 /home/alamin/.gradle/caches/transforms-3/b9f5fbef3e6d54a7b49e815adcd0695c/transformed/jetified-emoji2-views-helper-1.2.0/res
+com.lifesolutions.bd.app-browser-1.4.0-71 /home/alamin/.gradle/caches/transforms-3/b9ff4813356e86afe1d3575db2ca9ba6/transformed/browser-1.4.0/res
+com.lifesolutions.bd.app-slidingpanelayout-1.2.0-72 /home/alamin/.gradle/caches/transforms-3/c3b046f434fe165189fd3a600c9ad8c8/transformed/slidingpanelayout-1.2.0/res
+com.lifesolutions.bd.app-navigation-ui-ktx-2.5.3-73 /home/alamin/.gradle/caches/transforms-3/c4a07f00f9c7bac446053d87c1544b3e/transformed/navigation-ui-ktx-2.5.3/res
+com.lifesolutions.bd.app-jetified-play-services-ads-lite-21.5.0-74 /home/alamin/.gradle/caches/transforms-3/caeddf0ae65bcb08ba987be301163fb0/transformed/jetified-play-services-ads-lite-21.5.0/res
+com.lifesolutions.bd.app-lifecycle-runtime-2.5.1-75 /home/alamin/.gradle/caches/transforms-3/cca9595b20cd9bb77e22880271fb1239/transformed/lifecycle-runtime-2.5.1/res
+com.lifesolutions.bd.app-jetified-pinview-1.4.3-76 /home/alamin/.gradle/caches/transforms-3/d50fcd23b2b8cf56e2d63690f0868308/transformed/jetified-pinview-1.4.3/res
+com.lifesolutions.bd.app-preference-1.1.0-77 /home/alamin/.gradle/caches/transforms-3/d5aec582c2e106708795e1e887299bca/transformed/preference-1.1.0/res
+com.lifesolutions.bd.app-jetified-roundedimageview-2.3.0-78 /home/alamin/.gradle/caches/transforms-3/dbe502afc198f41172848958a19f4ffc/transformed/jetified-roundedimageview-2.3.0/res
+com.lifesolutions.bd.app-jetified-lifecycle-viewmodel-ktx-2.5.1-79 /home/alamin/.gradle/caches/transforms-3/de24dbf794a1a66eb2ab1c6f97748e7d/transformed/jetified-lifecycle-viewmodel-ktx-2.5.1/res
+com.lifesolutions.bd.app-navigation-ui-2.5.3-80 /home/alamin/.gradle/caches/transforms-3/e7325a8fd2f413a04f217fe9c4522b22/transformed/navigation-ui-2.5.3/res
+com.lifesolutions.bd.app-jetified-window-1.0.0-81 /home/alamin/.gradle/caches/transforms-3/edf2b19e57c5540227021d663c75e34f/transformed/jetified-window-1.0.0/res
+com.lifesolutions.bd.app-jetified-play-services-basement-18.1.0-82 /home/alamin/.gradle/caches/transforms-3/f465fbc4e7649f3a35f08e7bcca7fe46/transformed/jetified-play-services-basement-18.1.0/res
+com.lifesolutions.bd.app-jetified-lifecycle-livedata-core-ktx-2.5.1-83 /home/alamin/.gradle/caches/transforms-3/f61380f8fd74cbe47910178ba3f79f64/transformed/jetified-lifecycle-livedata-core-ktx-2.5.1/res
+com.lifesolutions.bd.app-jetified-android-reactions-1.3-84 /home/alamin/.gradle/caches/transforms-3/f9c111c27ff1f626abebedec1badcf9c/transformed/jetified-android-reactions-1.3/res
+com.lifesolutions.bd.app-jetified-flexbox-3.0.0-85 /home/alamin/.gradle/caches/transforms-3/fe12335ff1669499f199167621905568/transformed/jetified-flexbox-3.0.0/res
+com.lifesolutions.bd.app-navigation-runtime-2.5.3-86 /home/alamin/.gradle/caches/transforms-3/ff9d47bb3a1d2bb7324be1828c945115/transformed/navigation-runtime-2.5.3/res
+com.lifesolutions.bd.app-google-services-87 /home/alamin/AndroidStudioProjects/Lifesolutions BD/app/build/generated/res/google-services/debug
+com.lifesolutions.bd.app-resValues-88 /home/alamin/AndroidStudioProjects/Lifesolutions BD/app/build/generated/res/resValues/debug
+com.lifesolutions.bd.app-rs-89 /home/alamin/AndroidStudioProjects/Lifesolutions BD/app/build/generated/res/rs/debug
+com.lifesolutions.bd.app-mergeDebugResources-90 /home/alamin/AndroidStudioProjects/Lifesolutions BD/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.lifesolutions.bd.app-mergeDebugResources-91 /home/alamin/AndroidStudioProjects/Lifesolutions BD/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.lifesolutions.bd.app-merged_res-92 /home/alamin/AndroidStudioProjects/Lifesolutions BD/app/build/intermediates/merged_res/debug
+com.lifesolutions.bd.app-debug-93 /home/alamin/AndroidStudioProjects/Lifesolutions BD/app/src/debug/res
+com.lifesolutions.bd.app-main-94 /home/alamin/AndroidStudioProjects/Lifesolutions BD/app/src/main/res
+com.lifesolutions.bd.app-jetified-libbambuser-0.9.22-95 /home/alamin/AndroidStudioProjects/Lifesolutions BD/libbambuser-0.9.22/build/.transforms/29cf05afaaf64cce928076f5cb856d61/transformed/jetified-libbambuser-0.9.22/res

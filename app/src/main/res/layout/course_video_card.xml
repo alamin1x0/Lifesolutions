@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginBottom="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="12dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_thumb_img"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/user_low" />
+
+            <TextView
+                android:id="@+id/tv_video_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="Jhon Web"
+                android:paddingVertical="10dp"
+                android:paddingHorizontal="15dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+<!--            <com.google.android.material.button.MaterialButton-->
+<!--                android:id="@+id/btn_reg_next_page"-->
+<!--                android:layout_width="180dp"-->
+<!--                android:layout_height="55dp"-->
+<!--                android:text="View Profile"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:textSize="16sp"-->
+<!--                android:letterSpacing="0"-->
+<!--                app:icon="@drawable/ic_navigate_s"-->
+<!--                app:iconTint="@color/black"-->
+<!--                app:iconGravity="end"-->
+<!--                android:backgroundTint="#F5F5F5"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:fontFamily="@font/circularstd_book"-->
+<!--                app:cornerRadius="8dp"-->
+<!--                android:stateListAnimator="@null"/>-->
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

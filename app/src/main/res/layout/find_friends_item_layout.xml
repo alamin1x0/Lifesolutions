@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/users_item_find_friends"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@drawable/comment_layout_background_new"
+    android:backgroundTint="@color/white"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:paddingTop="8dp"
+    android:paddingStart="4dp"
+    android:paddingEnd="1dp"
+    android:gravity="center_vertical"
+    android:paddingBottom="8dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/picture_layout_find_friends"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image_user_find_friends"
+            android:layout_width="62dp"
+            android:src="@drawable/user"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#6DBDBDBD"
+            android:layout_marginStart="2dp"
+            android:scaleType="centerCrop"
+            android:layout_height="62dp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/online_status_user_find_friends"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:visibility="gone"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/white"
+            android:layout_marginBottom="8dp"
+            android:layout_alignBottom="@+id/profile_image_user_find_friends"
+            android:layout_alignEnd="@+id/profile_image_user_find_friends"
+            android:layout_marginEnd="0dp"
+            android:src="@color/green" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_toEndOf="@+id/picture_layout_find_friends"
+        android:layout_toStartOf="@+id/call_layout_find_friends"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:paddingStart="10dp"
+            android:paddingEnd="1dp"
+            android:id="@+id/name_user_find_friends"
+            android:textColor="@color/text_color_dark"
+            android:paddingTop="2dp"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="19sp" />
+
+        <TextView
+            android:layout_below="@+id/name_user_find_friends"
+            android:paddingStart="12dp"
+            android:paddingEnd="1dp"
+            android:textColor="@color/text_color_light"
+            android:textSize="15sp"
+            android:maxLines="1"
+            android:paddingBottom="2dp"
+            android:id="@+id/address_user_find_friends"
+            android:maxLength="50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/call_layout_find_friends"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/request_button_find_friends_item"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/ic_friend_request_sent_white"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "135067996018",
+    "firebase_url": "https://digital-online-school.firebaseio.com",
+    "project_id": "digital-online-school",
+    "storage_bucket": "digital-online-school.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135067996018:android:57b2ca1b06b4de708a57eb",
+        "android_client_info": {
+          "package_name": "com.stardigiinternational.starnotee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135067996018-kac9ckv2qphdtb1e4enstqfmbelgaqag.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stardigiinternational.starnotee",
+            "certificate_hash": "9c4702db5d7810b216cc06d0e366cfbbd1f8c26a"
+          }
+        },
+        {
+          "client_id": "135067996018-e70e7mf07gt8j4l5cvqfodr2iutgcres.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyh43-7PWoA7LALL7PykompxwlFdiPVVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135067996018-e70e7mf07gt8j4l5cvqfodr2iutgcres.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

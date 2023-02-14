@@ -1,0 +1,2558 @@
+[
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/anim_dialog_out.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/anim/dialog_out.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_camera.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_camera.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xxhdpi_logdd.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xxhdpi/logdd.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_s_circle_fill_bg.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/s_circle_fill_bg.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_card_shape_outline.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/card_shape_outline.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_native_ads_layout.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/native_ads_layout.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_group_view.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_group_view.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_menu.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_menu.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/raw_user_animation.json.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/raw/user_animation.json"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_translate.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_translate.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_layout_alert_dialog.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/layout_alert_dialog.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_image_view__on_feed.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/image_view__on_feed.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_dialog_edit_text_background.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/dialog_edit_text_background.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_comment_reply.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_comment_reply.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_message.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_message.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_mic_new_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_mic_new_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_profile_post_item.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/profile_post_item.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_share_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_share_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_button_background_main.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/button_background_main.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_teacher_details_card_dialog.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/teacher_details_card_dialog.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_refeer_share_btn_bg.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_refeer_share_btn_bg.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_cam.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/cam.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_more_vert_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_more_vert_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_call_screen.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_call_screen.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/font_roboto_regular.ttf.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/font/roboto_regular.ttf"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xxhdpi_image_random.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xxhdpi/image_random.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_intro_video_two.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/intro_video_two.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_address_dialog.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/address_dialog.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_item_border_view_bg.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/item_border_view_bg.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/menu_menu_notice.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/menu/menu_notice.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_image_developer_page.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/image_developer_page.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_dialog_bonus_layout.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/dialog_bonus_layout.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_background_left.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/background_left.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xxxhdpi_log_f.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xxxhdpi/log_f.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_recording_switch_start.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_recording_switch_start.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_course_under_line.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/course_under_line.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_comment_layout_background_white.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/comment_layout_background_white.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_outgoing_arrow.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_outgoing_arrow.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-v24_call_duration.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-v24/call_duration.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_chat_logo.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_chat_logo.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-ldpi_power_button.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-ldpi/power_button.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_accept_member.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_accept_member.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_password_recovery.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_password_recovery.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xxxhdpi_ic_fb_like.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xxxhdpi/ic_fb_like.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-ldpi_log_f.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-ldpi/log_f.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_comments_home.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_comments_home.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_friend.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_friend.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_mini_app_list.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_mini_app_list.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_game.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_game.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_buy_coin_card_dialog.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/buy_coin_card_dialog.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_random_call_frgment.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_random_call_frgment.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_navigate_s.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_navigate_s.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_course_video.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_course_video.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_call_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_call_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_group_pc.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_group_pc.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_button_backgroun_game.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/button_backgroun_game.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_friend_list.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_friend_list.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_baseline_more_vert.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_baseline_more_vert.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_speaker_new.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_speaker_new.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-hdpi_image_random.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-hdpi/image_random.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_indicator_selected.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/indicator_selected.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_user_low.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/user_low.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_star_outline.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_star_outline.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_play_circle_filled_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_play_circle_filled_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_public_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_public_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_mute_new.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_mute_new.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_contact_list.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/contact_list.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_background_splash.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/background_splash.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_speaker_call_red.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_speaker_call_red.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_video_play.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_video_play.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_own_profile.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_own_profile.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_post_with_multi_image.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/post_with_multi_image.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_coins_leader_board.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_coins_leader_board.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_profile_image_button_background.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/profile_image_button_background.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_campus_ambassador.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_campus_ambassador.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_ecommerce.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_ecommerce.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_email_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_email_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_web_view.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_web_view.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_group_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_group_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_stay_connect.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_stay_connect.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_user_list_view_one.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/user_list_view_one.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_animated_loading_layout.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/animated_loading_layout.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_checkmark.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_checkmark.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/menu_menu_group_member_option.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/menu/menu_group_member_option.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_stream.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_stream.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/anim_bounce_animation.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/anim/bounce_animation.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_game_menu.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_game_menu.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_brand_ambassedor_kt.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_brand_ambassedor_kt.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/menu_menu_search.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/menu/menu_search.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/menu_bottom_nav_main_menu.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/menu/bottom_nav_main_menu.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_random_call_gradient_bg.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/random_call_gradient_bg.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xxhdpi_log_f.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xxhdpi/log_f.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_star_full_color.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_star_full_color.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_search.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_search.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_write_post_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_write_post_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/font_popins_semi_bold.ttf.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/font/popins_semi_bold.ttf"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_fragment_required_step_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/fragment_required_step_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_record_voice_over_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_record_voice_over_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_dashboard_background.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/dashboard_background.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_apply_teacher_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_apply_teacher_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-ldpi_starnote_icon.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-ldpi/starnote_icon.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_random_call_fragment.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/random_call_fragment.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-mdpi_random_button.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-mdpi/random_button.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_edit_post_dailog.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/edit_post_dailog.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_fb_group_two.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_fb_group_two.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_new_user.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_new_user.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_watch_video_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_watch_video_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xxxhdpi_ic_fb_angry.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xxxhdpi/ic_fb_angry.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_kotlin_base.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_kotlin_base.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_google.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_google.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_toolbar_item_background.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/toolbar_item_background.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_post_item_only_text_layout_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/post_item_only_text_layout_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_find_friends.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_find_friends.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_expand_more_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_expand_more_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_banner1.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/banner1.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_loading_icon.gif.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/loading_icon.gif"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_pause_circle_filled_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_pause_circle_filled_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_all_campus_ambassador_view.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_all_campus_ambassador_view.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_baseline_delete.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_baseline_delete.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_action_search.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_action_search.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_active_circle_view.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/active_circle_view.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_leader_board.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_leader_board.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_video_call_icon.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_video_call_icon.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_check.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_check.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_code_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_code_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_home_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_home_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_background_right.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/background_right.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_calling.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_calling.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_sent_new_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_sent_new_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-hdpi_profile_ui_background.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-hdpi/profile_ui_background.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_online_game.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_online_game.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-ldpi_like_reaction.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-ldpi/like_reaction.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_border_background.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/border_background.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_main.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_missed_call_new.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_missed_call_new.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_my_test2.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_my_test2.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_horizontal_list_item.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/horizontal_list_item.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-ldpi_angry_reaction.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-ldpi/angry_reaction.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xxhdpi_random_button.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xxhdpi/random_button.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_all_friends_list.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_all_friends_list.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_quiz_item_background.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/quiz_item_background.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_coin_logo.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_coin_logo.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_video_thumbnail_placeholder.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/video_thumbnail_placeholder.png"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-merged_res-93:/drawable_course_app_id.png.flat",
+        "source": "com.lifesolutions.bd.app-main-95:/drawable/course_app_id.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_friend_list_conversation.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/friend_list_conversation.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_recording_switch_stop.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_recording_switch_stop.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_fragment_call_list.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/fragment_call_list.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_mic_call_white.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_mic_call_white.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_layout_call.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/layout_call.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_trophy.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/trophy.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_cake_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_cake_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_youtube_logo.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/youtube_logo.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_coursee.jpg.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/coursee.jpg"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-mdpi_log_f.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-mdpi/log_f.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_random_call_fragment_selector_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/random_call_fragment_selector_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_request_accept.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_request_accept.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_comment_layout_background.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/comment_layout_background.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/font_circular_std_medium.ttf.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/font/circular_std_medium.ttf"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_more_horiz_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_more_horiz_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_live_video.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_live_video.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_personal_message.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_personal_message.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_share.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_share.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/raw_loading.json.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/raw/loading.json"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_chat_item_left.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/chat_item_left.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_polygon.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_polygon.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_random_icon_left.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/random_icon_left.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_card_corner_radius.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/card_corner_radius.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_cancel_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_cancel_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_background_edit_text_search.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/background_edit_text_search.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_audio_icon_image_sender.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_audio_icon_image_sender.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_voice_record_dialog.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/voice_record_dialog.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_courses.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_courses.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_search_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_search_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-ldpi_visit_profile.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-ldpi/visit_profile.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_all_teachers.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_all_teachers.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xxxhdpi_ic_fb_wow.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xxxhdpi/ic_fb_wow.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_chat_list_item.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/chat_list_item.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_post_item_multi_image_layout.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/post_item_multi_image_layout.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-ldpi_logdd.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-ldpi/logdd.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_svg_rocket_icon.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_svg_rocket_icon.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_stream_view_list.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_stream_view_list.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/navigation_main_fragment_nav_graph.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/navigation/main_fragment_nav_graph.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_www.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_www.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_profile_dialog_layout.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/profile_dialog_layout.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_user_list_view_group_member.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/user_list_view_group_member.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/raw_loadingbar.json.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/raw/loadingbar.json"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_telegram.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_telegram.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_all_user_post.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_all_user_post.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_youtube.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_youtube.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_s_card_registration_bg.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/s_card_registration_bg.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_baseline_phone_missed.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_baseline_phone_missed.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_notification_fragment_selector_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/notification_fragment_selector_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_chat_video_call_new.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_chat_video_call_new.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_voice_message.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/voice_message.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_student.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_student.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_user.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/user.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-ldpi_profile_ui_background.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-ldpi/profile_ui_background.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_group_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_group_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_about_us_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_about_us_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xhdpi_log_f.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xhdpi/log_f.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_teacher_single.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_teacher_single.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_interest_new.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_interest_new.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_create_post_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_create_post_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_gif_permission.gif.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/gif_permission.gif"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_feed_fragment.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/feed_fragment.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_exam.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_exam.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_brand_ambassidor.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_brand_ambassidor.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_new_search_list.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/new_search_list.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_round_shape.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/round_shape.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_stream_activity.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/stream_activity.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_baseline_check_24.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_baseline_check_24.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_chat_fragment_selector_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/chat_fragment_selector_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xxxhdpi_clock_mid.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xxxhdpi/clock_mid.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_video_call_screen.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_video_call_screen.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_rank_background_leader_board.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/rank_background_leader_board.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/raw_progress_tone.wav.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/raw/progress_tone.wav"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_agora_random_call.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_agora_random_call.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_random_call_image_view_png.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/random_call_image_view_png.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_overlay_permission_other.gif.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/overlay_permission_other.gif"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_rocket_logo.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/rocket_logo.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_advance_new.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_advance_new.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_video_view.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_video_view.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_intro_three.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/intro_three.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-ldpi_sad_reaction.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-ldpi/sad_reaction.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_microphone_black_shape.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_microphone_black_shape.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_add_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_add_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_chat_mic_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_chat_mic_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_cardview_background.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/cardview_background.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_calling_button_background.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/calling_button_background.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_chaldal.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_chaldal.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_intro_page_one_new.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/intro_page_one_new.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_comment_layout.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/comment_layout.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-ldpi_contacts_logo.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-ldpi/contacts_logo.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_edit_group.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_edit_group.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_search_users.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_search_users.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_class_item_layout.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/class_item_layout.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_supervisor_account_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_supervisor_account_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_leaderboard_mothly.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_leaderboard_mothly.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_dialog_layout_warning.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/dialog_layout_warning.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_chat_circle.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_chat_circle.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_agora_random_voice_call.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_agora_random_voice_call.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xhdpi_random_button.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xhdpi/random_button.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_share_news_feed.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_share_news_feed.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/font_roboto_thin.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/font/roboto_thin.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_random_call_button_background.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/random_call_button_background.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_indicator_selector.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/indicator_selector.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_chat_call_new.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_chat_call_new.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_keyboard_arrow_right_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_keyboard_arrow_right_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/font_popins_bold.ttf.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/font/popins_bold.ttf"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_s_custom_progress_dialog.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/s_custom_progress_dialog.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_login_page_bg_new.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/login_page_bg_new.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ciecle_bg_edit.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ciecle_bg_edit.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_dialog_with_recycler_view.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/dialog_with_recycler_view.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/menu_menu_delete.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/menu/menu_delete.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_bithdate_layout_background.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/bithdate_layout_background.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_teacher_details_card.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/teacher_details_card.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_create_post_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_create_post_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_audio_new.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_audio_new.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-mdpi_profile_ui_background.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-mdpi/profile_ui_background.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_school.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_school.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_audio_call_bg_new.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/audio_call_bg_new.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_copy_refer_bg.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_copy_refer_bg.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_ambassadors_details_card_dialog.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/ambassadors_details_card_dialog.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_close_call_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_close_call_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_blood_drop.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_blood_drop.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_chat_outline.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_chat_outline.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/raw_ring_tone.mp3.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/raw/ring_tone.mp3"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/menu_menu_remove.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/menu/menu_remove.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_friend_request_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_friend_request_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_fb_group_four.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_fb_group_four.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/anim_dialog_in.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/anim/dialog_in.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_background.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/background.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_post_item_layout_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/post_item_layout_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_post_item_layout.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/post_item_layout.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_live_video_item_layout.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/live_video_item_layout.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_friends_final_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_friends_final_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_profile.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_incoming_video_call_screen.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_incoming_video_call_screen.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_signal_cellular_connected_no_internet_0_bar_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_signal_cellular_connected_no_internet_0_bar_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_location.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_location.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-hdpi_random_button.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-hdpi/random_button.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_teacher_bg_.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/teacher_bg_.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_wrong_answer_background.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/wrong_answer_background.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/menu_menu_group_message.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/menu/menu_group_message.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_fragment_group_list.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/fragment_group_list.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_video_view.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_video_view.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-ldpi_wow_reaction.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-ldpi/wow_reaction.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_user_profile.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_user_profile.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_messenger.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/messenger.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_not_enough_coin_dialog_text_bg.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/not_enough_coin_dialog_text_bg.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_arrow_back_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_arrow_back_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/menu_menu_feed.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/menu/menu_feed.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_friend_request_sent_white.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_friend_request_sent_white.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_photo_camera.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_photo_camera.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_search_friend.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_search_friend.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_group_cover_default_final.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_group_cover_default_final.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_my_post_list.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_my_post_list.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_group_info_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_group_info_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_school_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_school_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xxxhdpi_ic_fb_sad.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xxxhdpi/ic_fb_sad.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_test_noti.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_test_noti.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_registration_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_registration_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_donate.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_donate.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_all_ambassador.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_all_ambassador.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_image_view_dialog.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/image_view_dialog.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_random_icon.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/random_icon.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_add_user.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/add_user.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_round_view.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/round_view.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-hdpi_starnote_icon.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-hdpi/starnote_icon.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_chat.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_chat.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xhdpi_starnote_icon.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xhdpi/starnote_icon.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_s_gender_dropdown_view.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/s_gender_dropdown_view.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_call_final.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_call_final.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_group_only.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_group_only.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_call_end_white.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_call_end_white.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_notification_layout.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/notification_layout.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-hdpi_logdd.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-hdpi/logdd.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_dialog_recive_call_layout.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/dialog_recive_call_layout.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_starnote_random_page_icon_png.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/starnote_random_page_icon_png.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xhdpi_app_icon_new.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xhdpi/app_icon_new.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_chat_fragment.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/chat_fragment.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_teacher_card_view_hz.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/teacher_card_view_hz.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_s_page_login_image_view.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/s_page_login_image_view.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_share_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_share_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-ldpi_love_reaction.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-ldpi/love_reaction.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/font_circularstd_book.ttf.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/font/circularstd_book.ttf"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_comment_layout_background_new.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/comment_layout_background_new.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_course_details_card.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/course_details_card.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_splash_screen_jun_png.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/splash_screen_jun_png.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_avd_starnote_social.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/avd_starnote_social.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_user_layout.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/user_layout.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_video_camera_logo.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_video_camera_logo.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_intro_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_intro_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_text_background_news_feed.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/text_background_news_feed.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/font_popins_regular.ttf.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/font/popins_regular.ttf"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_edit_text_background_login.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/edit_text_background_login.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_close_bold.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_close_bold.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/menu_menu_chat.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/menu/menu_chat.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_user_friend_list.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_user_friend_list.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_jhalmuri.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_jhalmuri.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_call_local_view_shape.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/call_local_view_shape.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_double_check_black.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_double_check_black.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_alert_dialog_background.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/alert_dialog_background.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_video_call_final.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_video_call_final.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_all_group_list.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_all_group_list.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_img_boy.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/img_boy.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xxxhdpi_profile_ui_background.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xxxhdpi/profile_ui_background.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/raw_notification.mp3.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/raw/notification.mp3"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_dingi_map.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_dingi_map.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xxhdpi_profile_ui_background.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xxhdpi/profile_ui_background.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_dev_info_low.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_dev_info_low.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_send_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_send_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_edit_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_edit_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_accessibility_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_accessibility_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_exit_new.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_exit_new.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_post_video_layout.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/post_video_layout.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_group_list_item_vertical.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/group_list_item_vertical.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_join_group.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_join_group.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_choose_live_updated.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/choose_live_updated.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_speaker_call_white.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_speaker_call_white.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_app_icon.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/app_icon.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_random_call_ongoing.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_random_call_ongoing.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_group_message.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_group_message.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_fragment_call_history_.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/fragment_call_history_.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_bkash_icon.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/bkash_icon.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_apply_for_teacher.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_apply_for_teacher.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/xml_file_paths.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/xml/file_paths.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_expand_less_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_expand_less_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_ecommerce_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_ecommerce_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_group_placeholder.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_group_placeholder.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_tom_cruise.jpg.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/tom_cruise.jpg"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_my_test.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_my_test.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_new_random_call_fragment.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/new_random_call_fragment.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-v24_lastcall.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-v24/lastcall.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xhdpi_logdd.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xhdpi/logdd.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xxxhdpi_clock_small.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xxxhdpi/clock_small.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_movies_fragment.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/movies_fragment.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/raw_ringtone_by_sojol.mp3.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/raw/ringtone_by_sojol.mp3"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_ambassador_card_view_hz.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/ambassador_card_view_hz.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xxxhdpi_switch_btn_bg.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xxxhdpi/switch_btn_bg.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_facebook_logo.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/facebook_logo.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_dashboard.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_starnote_icon_bold.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/starnote_icon_bold.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xxxhdpi_image_random.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xxxhdpi/image_random.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_show.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_show.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_ambassador_details_card.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/ambassador_details_card.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_friend_card_layout.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/friend_card_layout.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_background_search_bar.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/background_search_bar.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_online_user_item_view_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/online_user_item_view_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_news_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_news_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_user_conversation_list_item.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/user_conversation_list_item.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_brand_ambassedor.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_brand_ambassedor.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_single_coin.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_single_coin.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-ldpi_random_button.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-ldpi/random_button.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_round_bg.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/round_bg.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_video_list.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_video_list.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_friend_request_list_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_friend_request_list_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_home_fragment_selector_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/home_fragment_selector_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_dialog_voice_message_player.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/dialog_voice_message_player.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_avd_loading_three.gif.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/avd_loading_three.gif"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_rectangle_bg.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/rectangle_bg.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_videocam_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_videocam_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_baseline_phone_in_talk.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_baseline_phone_in_talk.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_add_group_member.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_add_group_member.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_left_audio_icon_image.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_left_audio_icon_image.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_custom_call_recieve.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_custom_call_recieve.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_dialog_coming_soon_layout.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/dialog_coming_soon_layout.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_call_call_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_call_call_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_group_starnote.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_group_starnote.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_starnote_live_video.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_starnote_live_video.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_facebook.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_facebook.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_chat_item_layout.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/chat_item_layout.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_volume_off_grey_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_volume_off_grey_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_incoming_call_screen.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_incoming_call_screen.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_avd_loading_dots.gif.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/avd_loading_dots.gif"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_quiz.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_quiz.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_feedback_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_feedback_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_login_button_background.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/login_button_background.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_starnote_splash_screen_with_text.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/starnote_splash_screen_with_text.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_option_layout_background.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/option_layout_background.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_splash_screen_logo.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/splash_screen_logo.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_img_girl.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/img_girl.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_translator_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_translator_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_course_card_view_hz.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/course_card_view_hz.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xxxhdpi_ic_fb_love.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xxxhdpi/ic_fb_love.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_login_kt_small.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_login_kt_small.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_chat_item_right.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/chat_item_right.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_refer.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_refer.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_team.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_team.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_item_layout_leader_board.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/item_layout_leader_board.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/menu_menu_camera.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/menu/menu_camera.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xxxhdpi_livegif.gif.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xxxhdpi/livegif.gif"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_post_item_link_layout_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/post_item_link_layout_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xhdpi_image_random.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xhdpi/image_random.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_choose_live.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_choose_live.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_add_data.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_add_data.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/xml_network_security_config.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_check_bold.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_check_bold.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_star_note_social_logo_new.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/star_note_social_logo_new.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_dialog_create_group_layout.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/dialog_create_group_layout.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_check_circle_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_check_circle_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_menu_fragment_selector_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/menu_fragment_selector_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xxhdpi_starnote_icon.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xxhdpi/starnote_icon.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_ambassador_single.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_ambassador_single.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_full_post.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_full_post.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_spinner_layout.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/spinner_layout.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xxxhdpi_clock.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xxxhdpi/clock.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_random_call_outline.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_random_call_outline.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_course_image.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/course_image.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_white_background.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/white_background.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-ldpi_image_random.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-ldpi/image_random.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_leaderboard_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_leaderboard_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_layout_intro_screen.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/layout_intro_screen.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xxxhdpi_ic_fb_laugh.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xxxhdpi/ic_fb_laugh.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_group_chat_item_left.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/group_chat_item_left.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_view_stream.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_view_stream.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-ldpi_send_invite.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-ldpi/send_invite.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-mdpi_starnote_icon.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-mdpi/starnote_icon.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_check_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_check_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_group_add_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_group_add_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_question_layout_background.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/question_layout_background.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-mdpi_image_random.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-mdpi/image_random.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/menu_menu_save.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/menu/menu_save.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_reaction_layout.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/reaction_layout.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_gift_box_final.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/gift_box_final.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_settings.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_double_check.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_double_check.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_audio_call_gradient_bg.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/audio_call_gradient_bg.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_contacts_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_contacts_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_community_cardview_hz.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/community_cardview_hz.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_post_item_big_text_layout_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/post_item_big_text_layout_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_incomming_call_new.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_incomming_call_new.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/anim_button_animation.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/anim/button_animation.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_notification_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_notification_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_call_end_call_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_call_end_call_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_video_item_layout.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/video_item_layout.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_badge_verified.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_badge_verified.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_privacy_spinner_row.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/privacy_spinner_row.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xxxhdpi_random_button.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xxxhdpi/random_button.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_campuss_ambassador.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_campuss_ambassador.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_about_us.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_about_us.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_comment_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_comment_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_user_login.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_user_login.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_live_streaming.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_live_streaming.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_soft_lab_it_icon.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/soft_lab_it_icon.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_tab_selector_bg.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/tab_selector_bg.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_course_video_card.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/course_video_card.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_hungrinaki.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_hungrinaki.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_image_upload_dialog.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/image_upload_dialog.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_baseline_close_24.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_baseline_close_24.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_user_profile_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_user_profile_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_banner2.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/banner2.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_news.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_news.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_settings.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_course_single.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_course_single.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_apply_refer_code_dialog.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/apply_refer_code_dialog.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_user_image_login_page.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_user_image_login_page.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_dialog_recovery_password.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/dialog_recovery_password.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_login_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_login_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_add_photo.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_add_photo.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_layout_video_list_item.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/layout_video_list_item.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/anim_top_to_bottom.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/anim/top_to_bottom.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_attach_money_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_attach_money_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_color_cursor_custom.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/color_cursor_custom.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_menu_fragment.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/menu_fragment.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_live_png.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_live_png.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_teacher_new_random.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_teacher_new_random.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_random_text_container.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/random_text_container.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_books.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_books.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_filelogo.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/filelogo.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_im.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/im.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_splash.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_course_web_view.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_course_web_view.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_all_courses.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_all_courses.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_attach_post_new.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_attach_post_new.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_incoming_arrow.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_incoming_arrow.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_friend_request_list.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_friend_request_list.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_business_center_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_business_center_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_docs_file.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_docs_file.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_fb_group_one.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_fb_group_one.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_question_background.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/question_background.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_customer_new.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_customer_new.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_error_dialog_layout.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/error_dialog_layout.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_find_friends_item_layout.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/find_friends_item_layout.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_file_download_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_file_download_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_image_pick.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_image_pick.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_fragment_additional_step_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/fragment_additional_step_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/raw_user_random_call_animation.json.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/raw/user_random_call_animation.json"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_video.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_video.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-ldpi_switch_camera.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-ldpi/switch_camera.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_mic_call_red.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_mic_call_red.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_notification_fragment.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/notification_fragment.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-ldpi_haha_reaction.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-ldpi/haha_reaction.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_fb_group_three.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_fb_group_three.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xhdpi_profile_ui_background.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xhdpi/profile_ui_background.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_group_chat_list_item.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/group_chat_list_item.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_border_color.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/border_color.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_fragment_course.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/fragment_course.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/menu_menu_search_friends.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/menu/menu_search_friends.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_layout_clickable_ripple_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/layout_clickable_ripple_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-mdpi_price_bg.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-mdpi/price_bg.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_phone.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_phone.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_home_outline_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_home_outline_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_pdf_file.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_pdf_file.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_all_activer_user.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_all_activer_user.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_dialogue_with_edittext.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/dialogue_with_edittext.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_person_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_person_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xxxhdpi_minute_text_background.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xxxhdpi/minute_text_background.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_bkash_logo.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/bkash_logo.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_menu_outline.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_menu_outline.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_course_enroll_dialog.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/course_enroll_dialog.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_xi_alert_box.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/xi_alert_box.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_dialog_not_enough_coin.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/dialog_not_enough_coin.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/menu_menu_call.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/menu/menu_call.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_new_badge.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_new_badge.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-merged_res-93:/menu_bottom_nav_main_menu.xml.flat",
+        "source": "com.lifesolutions.bd.app-main-95:/menu/bottom_nav_main_menu.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_softlabit_logo.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/softlabit_logo.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_person_outline_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_person_outline_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_youtube_play.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_youtube_play.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_view_image.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_view_image.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_random_call.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_random_call.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_all_online_user_item_view.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/all_online_user_item_view.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_button_background_login.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/button_background_login.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_about_developer.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_about_developer.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_outgoing_call_new.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_outgoing_call_new.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_notification_outline_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_notification_outline_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_correct_answer_background.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/correct_answer_background.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_test.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_test.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_title_text_background.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/title_text_background.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_post_image_new.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_post_image_new.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_wallet_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_wallet_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_starnote_text_logo_new.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/starnote_text_logo_new.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-hdpi_log_f.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-hdpi/log_f.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_volume_up_grey_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_volume_up_grey_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_s_circle_outline_bg.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/s_circle_outline_bg.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_group_chat.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_group_chat.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/raw_circle_loading.json.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/raw/circle_loading.json"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_contact_item.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/contact_item.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_call_log_list_item.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/call_log_list_item.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_s_card_create_group_bg.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/s_card_create_group_bg.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_book.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_book.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_comment_btn.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_comment_btn.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_caret_forward.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_caret_forward.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-mdpi_logdd.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-mdpi/logdd.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_background_write_post.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/background_write_post.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_post_placeholder_layout.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/post_placeholder_layout.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable-xxxhdpi_logdd.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable-xxxhdpi/logdd.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_image_24.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/image_24.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_add_member.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_add_member.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_badge_icon.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_badge_icon.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_request_list.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_request_list.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_new_plus_icon.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_new_plus_icon.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ambassador_avatar.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ambassador_avatar.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_edit_profile_info_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_edit_profile_info_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_indicator_default.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/indicator_default.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_custom_call.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_custom_call.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_s_starnote_logo_horizontal.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/s_starnote_logo_horizontal.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_add_plus.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_add_plus.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_info.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_info.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_report_edittext.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/report_edittext.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_buy_coin.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_buy_coin.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_filled_new_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_filled_new_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/anim_rotate.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/anim/rotate.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_group_chat_list.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_group_chat_list.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_instagram.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/instagram.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_logo_starnote_circle.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/logo_starnote_circle.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_conversations_fragment.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/conversations_fragment.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_video.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_video.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_pic_photo_new_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/pic_photo_new_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_group_chat_item_right.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/group_chat_item_right.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_audio_player.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_audio_player.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_baajna.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_baajna.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_create_chat_group.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_create_chat_group.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_intro_all_fetures_one.png.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/intro_all_fetures_one.png"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_call_missed_24.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/call_missed_24.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_circle_24.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/circle_24.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_rate_us_kt.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_rate_us_kt.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_fragment_chat_list.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/fragment_chat_list.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/drawable_ic_lock_outline_black_24dp.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/drawable/ic_lock_outline_black_24dp.xml"
+    },
+    {
+        "merged": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-merged_res-93:/layout_activity_ambassador.xml.flat",
+        "source": "/home/alamin/.gradle/daemon/7.4/com.lifesolutions.bd.app-main-95:/layout/activity_ambassador.xml"
+    }
+]

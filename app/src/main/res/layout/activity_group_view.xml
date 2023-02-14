@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".Activities.GroupViewActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout_group_view"
+        app:elevation="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            android:id="@+id/collapsing_layout_group_view"
+            app:contentScrim="?attr/colorPrimary"
+            app:title=""
+            app:expandedTitleTextAppearance="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:fitsSystemWindows="true"
+            app:expandedTitleGravity="top|start"
+            android:minHeight="?actionBarSize"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/group_image_group_view"
+                    android:src="@drawable/ic_group_cover_default_final"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="centerCrop"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/group_name_group_view"
+                    android:layout_alignParentBottom="true"
+                    android:background="#57000000"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:padding="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <ImageButton
+                    android:id="@+id/btn_upload_group_photo"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="ContentDescription"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:tint="@color/text_color_dark"
+                    android:background="@color/transparent"
+                    android:src="@drawable/ic_photo_camera"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+
+            </RelativeLayout>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar_view_group"
+                app:popupTheme="@style/AppTheme"
+                app:layout_collapseMode="pin"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize">
+
+                <TextView
+                    android:text="Save"
+                    android:visibility="gone"
+                    android:layout_gravity="end"
+                    android:padding="8dp"
+                    android:textColor="@color/colorMain"
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Group members"
+                android:layout_alignParentStart="true"
+                android:textAlignment="viewEnd"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:textColor="@color/text_color_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/add_participants_view_group"
+                android:text="Add Member"
+                android:drawableEnd="@drawable/ic_add_black_24dp"
+                android:drawablePadding="8dp"
+                android:layout_alignParentEnd="true"
+                app:drawableTint="@color/colorMain"
+                android:textAlignment="viewEnd"
+                android:padding="8dp"
+                android:textSize="18sp"
+                android:textColor="@color/colorMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_view_group"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

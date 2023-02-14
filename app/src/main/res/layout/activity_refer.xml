@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="wrap_content"
+    tools:context=".Activities.ReferActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/top_view"
+            android:background="@drawable/random_call_gradient_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/appBar_refer"
+                app:elevation="0dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/transparent"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.Toolbar
+                    app:titleTextColor="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:id="@+id/toolbar_refer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+
+                </androidx.appcompat.widget.Toolbar>
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <RelativeLayout
+                android:layout_below="@+id/appBar_refer"
+                android:layout_width="match_parent"
+                android:layout_height="450dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/refer_your_friends_and_earn"
+                        android:layout_gravity="center"
+                        android:textSize="24sp"
+                        android:fontFamily="@font/circularstd_book"
+                        android:textColor="#FFF"/>
+
+                    <ImageView
+                        android:layout_marginTop="20dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/gift_box_final"
+                        android:layout_gravity="center"
+                        tools:ignore="ContentDescription" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/coin_img_view"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_alignBottom="@+id/coin_refer_code"
+                            android:src="@drawable/ic_coin_logo"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:id="@+id/coin_refer_code"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="8dp"
+                            android:layout_toEndOf="@+id/coin_img_view"
+                            android:fontFamily="@font/circularstd_book"
+                            android:text="@string/_100"
+                            android:textColor="#FFF"
+                            android:textSize="35sp" />
+
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/total_referred_refer_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:drawablePadding="5dp"
+                        android:text="@string/_100"
+                        android:layout_gravity="center_horizontal"
+                        android:drawableStart="@drawable/ic_person_black_24dp"
+                        app:drawableTint="@color/white"
+                        android:fontFamily="@font/circularstd_book"
+                        android:textSize="20sp"
+                        android:layout_marginStart="8dp"
+                        android:textColor="#FFF"/>
+
+                    <LinearLayout
+                        android:id="@+id/refer_code_view_area"
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="15dp"
+                        android:padding="8dp"
+                        android:weightSum="4"
+                        android:gravity="center_vertical"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginStart="30dp"
+                        android:background="@drawable/ic_copy_refer_bg">
+
+                        <LinearLayout
+                            android:layout_weight="2.7"
+                            android:padding="8dp"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:id="@+id/copy_refer_text_one"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/your_referral_code"
+                                android:textColor="@color/white"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/code_refer_code"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="25sp"
+                                android:text="@string/app_name"
+                                android:textColor="@color/white"
+                                android:fontFamily="@font/circularstd_book"/>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="2dp"
+                            android:layout_margin="3dp"
+                            android:background="@color/white"
+                            android:layout_height="match_parent"/>
+
+                        <TextView
+                            android:layout_weight="1.3"
+                            android:id="@+id/copy_refer_code"
+                            android:layout_width="0dp"
+                            android:textAlignment="center"
+                            android:layout_height="wrap_content"
+                            android:text="@string/copy_code"
+                            android:textColor="@color/white"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:fontFamily="@font/circularstd_book"
+                            android:textSize="20sp"
+                            tools:ignore="RelativeOverlap" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-28dp">
+
+            <Button
+                android:id="@+id/share_btn_refer_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/share_with_your_friends"
+                android:textColor="#FFF"
+                android:drawablePadding="10dp"
+                android:textStyle="bold"
+                app:drawableTint="@color/white"
+                android:drawableStart="@drawable/ic_share"
+                android:layout_centerHorizontal="true"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:background="@drawable/ic_refeer_share_btn_bg"
+                tools:ignore="RtlSymmetry" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/text_color_dark"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/circularstd_book"
+                android:text="Frequently Asked Questions"
+                android:layout_marginStart="30dp"/>
+
+            <LinearLayout
+                android:id="@+id/item_description_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:minHeight="48dp"
+                android:layout_marginStart="30dp"
+                android:paddingStart="0dp"
+                android:paddingEnd="16dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:fontFamily="@font/circularstd_book"
+                    android:textColor="@color/text_color_dark"
+                    android:id="@+id/item_description_title"
+                    android:textSize="16sp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.9"
+                    android:gravity="center_vertical"
+                    android:text="What is Reward?"/>
+                <ImageView
+                    android:id="@+id/item_description_img"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:layout_gravity="center_vertical|end"
+                    android:src="@drawable/ic_expand_more_black_24dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/item_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/text_color_dark"
+                android:textSize="16sp"
+                android:paddingStart="0dp"
+                android:text="The reward is the point for each random call minute. If you speak 100 minutes in Random Call, you'll get 100 points."
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:visibility="gone"
+                android:gravity="center_vertical"
+                />
+            <LinearLayout
+                android:id="@+id/item_description_layout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:minHeight="48dp"
+                android:layout_marginStart="30dp"
+                android:paddingStart="0dp"
+                android:paddingEnd="16dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:fontFamily="@font/circularstd_book"
+                    android:textColor="@color/text_color_dark"
+                    android:id="@+id/item_description_title2"
+                    android:textSize="16sp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.9"
+                    android:gravity="center_vertical"
+                    android:text="What is Leaderboard?"/>
+
+                <ImageView
+                    android:id="@+id/item_description_img2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:layout_gravity="center_vertical|end"
+                    android:src="@drawable/ic_expand_more_black_24dp"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/item_description2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/text_color_dark"
+                android:textSize="16sp"
+                android:paddingStart="0dp"
+                android:text="The leaderboard is the performance of your total activities."
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:gravity="center_vertical"
+                android:visibility="gone"/>
+            <LinearLayout
+                android:id="@+id/item_description_layout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:minHeight="48dp"
+                android:layout_marginStart="30dp"
+                android:paddingStart="0dp"
+                android:paddingEnd="16dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:fontFamily="@font/circularstd_book"
+                    android:textColor="@color/text_color_dark"
+                    android:id="@+id/item_description_title3"
+                    android:textSize="16sp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.9"
+                    android:gravity="center_vertical"
+                    android:text="Where can I use this earned point?"/>
+                <ImageView
+                    android:id="@+id/item_description_img3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:layout_gravity="center_vertical|end"
+                    android:src="@drawable/ic_expand_more_black_24dp"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/item_description3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/text_color_dark"
+                android:textSize="16sp"
+                android:paddingStart="0dp"
+                android:text="There are so many ways to use earned points in future but now, we will reward Top 10 leaderboard users."
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:gravity="center_vertical"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

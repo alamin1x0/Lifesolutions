@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/feed_card_view_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_marginBottom="10dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_author_without_image_kt3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:src="@drawable/user_low"
+                tools:ignore="ContentDescription"
+                app:civ_border_color="#FAFAFA"
+                app:civ_border_width="2dp"/>
+
+            <TextView
+                android:id="@+id/tv_author_name_without_image_kt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                tools:text="Ikbal Sazib"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color_dark"
+                app:layout_constraintStart_toEndOf="@+id/iv_author_without_image_kt3"
+                app:layout_constraintTop_toTopOf="@+id/iv_author_without_image_kt3" />
+
+            <TextView
+                android:id="@+id/tv_date_without_image_item_kt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="2dp"
+                android:text="8 hour ago"
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@+id/iv_author_without_image_kt3"
+                app:layout_constraintTop_toBottomOf="@+id/tv_author_name_without_image_kt3" />
+
+            <ImageButton
+                android:id="@+id/btn_more_on_feed_color_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="12dp"
+                android:background="@color/transparent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/iv_author_without_image_kt3"
+                app:srcCompat="@drawable/ic_more_vert_black_24dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:visibility="visible"
+            android:id="@+id/raw_text_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_raw_text_multi_omg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="@string/lorem"
+                android:textSize="18sp"
+                android:padding="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:id="@+id/singleviewf"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_picked_imagef"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:minHeight="220dp"
+                    tools:src="@drawable/rocket_logo" />
+            </LinearLayout> <!-- Single Image View -->
+
+
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/singleviewf2"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_picked_imagef2"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/rocket_logo" />
+                <ImageView
+                    android:id="@+id/iv_picked_imagef22"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/rocket_logo"/>
+            </LinearLayout> <!-- Double Image View -->
+
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/singleviewf3"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_picked_imagef3"
+                    android:layout_width="match_parent"
+                    android:layout_height="186dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/rocket_logo" />
+
+                <ImageView
+                    android:id="@+id/iv_picked_imagef32"
+                    android:layout_width="match_parent"
+                    android:layout_height="186dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/rocket_logo" />
+
+                <ImageView
+                    android:id="@+id/iv_picked_imagef33"
+                    android:layout_width="match_parent"
+                    android:layout_height="187dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/rocket_logo" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/singleviewf4"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_picked_imagef41"
+                        android:layout_width="180dp"
+                        android:layout_height="100dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/rocket_logo" />
+                    <ImageView
+                        android:id="@+id/iv_picked_imagef42"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/rocket_logo" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_picked_imagef43"
+                        android:layout_width="180dp"
+                        android:layout_height="100dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/rocket_logo" />
+                    <ImageView
+                        android:id="@+id/iv_picked_imagef44"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/rocket_logo" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <View
+                android:background="@color/viewColor"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                app:layout_constraintBottom_toTopOf="@+id/like_btn_without_image_border3"
+                app:layout_constraintTop_toTopOf="@+id/like_btn_without_image_border3">
+
+                <com.like.LikeButton
+                    android:id="@+id/like_btn_without_image_border3"
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    app:icon_size="21dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:like_drawable="@drawable/ic_star_full_color"
+                    app:liked="false"
+                    app:unlike_drawable="@drawable/ic_star_outline" />
+
+                <TextView
+                    android:id="@+id/tv_like_count_without_image_item_kt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10"
+                    app:layout_constraintBottom_toBottomOf="@+id/like_btn_without_image_border3"
+                    app:layout_constraintStart_toEndOf="@+id/like_btn_without_image_border3"
+                    app:layout_constraintTop_toTopOf="@+id/like_btn_without_image_border3" />
+
+
+                <LinearLayout
+                    android:id="@+id/share_layout_without_image3"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/share_button_post_item_kt3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        app:srcCompat="@drawable/ic_share_kt" />
+
+                    <TextView
+                        android:id="@+id/share_btn_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/com_facebook_share_button_text" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_btn_comment_without_image3"
+                    android:layout_width="100dp"
+                    android:layout_height="28dp"
+                    android:layout_marginStart="15dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    app:layout_constraintBottom_toBottomOf="@+id/like_btn_without_image_border3"
+                    app:layout_constraintStart_toEndOf="@+id/like_btn_without_image_border3"
+                    app:layout_constraintTop_toTopOf="@+id/like_btn_without_image_border3">
+
+                    <ImageView
+                        android:id="@+id/comment_icon3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        app:srcCompat="@drawable/ic_comment_kt" />
+
+                    <TextView
+                        android:id="@+id/tv_comment_count_without_image_item_kt3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="2" />
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ImageView
+                android:id="@+id/imgView_line3"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/viewBackground"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+

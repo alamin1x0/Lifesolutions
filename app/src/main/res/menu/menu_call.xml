@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_video_call"
+        android:title="@string/video_call"
+        android:icon="@drawable/ic_video_call_final"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+
+    <item android:id="@+id/action_audio_call"
+        android:title="@string/audio_call"
+        android:icon="@drawable/ic_call_final"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/action_user_block"
+        android:title="Block"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_user_info"
+        android:title="User Info"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_user_unblock"
+        android:title="Unblock"
+        app:showAsAction="never"/>
+
+</menu>

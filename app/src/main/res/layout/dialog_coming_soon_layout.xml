@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/alert_dialog_background"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:background="@drawable/alert_dialog_background"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_dialog_bonus"
+            tools:ignore="ContentDescription"
+            android:layout_gravity="center"
+            android:src="@drawable/logo_starnote_circle"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+
+        <TextView
+            android:id="@+id/title_dialog_bonus"
+            android:layout_marginTop="10dp"
+            android:padding="4dp"
+            android:textColor="#FF5733"
+            android:text="Coming Soon..."
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/description_dialog_bonus"
+            android:padding="4dp"
+            android:text="Please be patient for this feature"
+            android:textColor="@color/green"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

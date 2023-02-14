@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/roboto_regular"
+        android:textAlignment="center"
+        android:textColor="@color/text_color_dark"
+        android:text="@string/tap_mic_button_to_start_recording"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Chronometer
+        android:id="@+id/chronometer_recorder_dialog"
+        android:layout_marginTop="20dp"
+        android:textSize="40sp"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/record_button_recorder_dialog"
+        tools:ignore="ContentDescription"
+        android:src="@drawable/ic_recording_switch_stop"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+</LinearLayout>

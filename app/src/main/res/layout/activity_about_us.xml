@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AboutUsActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:background="@color/colorMain"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageButton
+            android:id="@+id/back_button_donor_profile"
+            tools:ignore="ContentDescription"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="12dp"
+            android:background="@color/transparent"
+            android:tint="@color/white"
+            android:onClick="BackToHome"
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                tools:ignore="contentDescription"
+                android:id="@+id/code_icon"
+                android:src="@drawable/app_icon"
+                android:layout_centerHorizontal="true"
+                android:layout_width="90dp"
+                android:layout_height="90dp" />
+
+            <TextView
+                android:text="About US"
+                android:layout_below="@+id/code_icon"
+                android:textSize="26sp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.cardview.widget.CardView
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_margin="2dp"
+        app:cardCornerRadius="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textColor="@color/text_color_light"
+                    android:fontFamily="@font/circularstd_book"
+                    android:text="@string/star_note_social_app_is_a_product_of_stardigi_international_it_is_developed_in_bangladesh_by_a_group_of_very_talented_developers_with_their_best_efforts_the_people_behind_the_project_have_decades_of_experiences_in_technology_sector_the_product_is_made_for_bangladeshis_and_bangla_speaking_community_around_the_world_also_teaching_for_english_language_our_goal_is_to_make_a_positive_impact_to_our_users_everyday_life_and_add_value_to_their_life_with_useful_services_we_want_to_create_a_well_educated_nation_reach_us_out_if_you_have_any_query_or_for_any_partnership_opportunities"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:layout_gravity="center"
+                    android:drawableStart="@drawable/ic_email_black_24dp"
+                    app:drawableTint="@color/text_color_dark"
+                    android:textColor="@color/text_color_dark"
+                    android:fontFamily="@font/circularstd_book"
+                    android:text="stardigiinternational@gmail.com"
+                    android:layout_width="wrap_content"
+                    android:drawablePadding="10dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

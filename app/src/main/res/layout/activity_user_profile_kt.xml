@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:background="@color/white"
+android:layout_height="match_parent"
+tools:context=".kotlinCode.ui.activities.UserProfileActivityKt">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/user_profile_main_layout">
+
+    <RelativeLayout
+        android:id="@+id/background_user_profile"
+        android:background="@drawable/cardview_background"
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+
+        <ImageView
+            android:id="@+id/cover_photo_user_profile"
+            android:src="@drawable/audio_call_gradient_bg"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/back_button_user_profile"
+        tools:ignore="ContentDescription"
+        android:clickable="true"
+        android:focusable="true"
+        android:tint="@color/white"
+        android:onClick="backToHome"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="12dp"
+        android:background="#00123456"
+        android:src="@drawable/ic_arrow_back_black_24dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_picture_user_profile"
+        android:layout_below="@+id/background_user_profile"
+        android:layout_marginTop="-80dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/user"
+        android:layout_gravity="start"
+        android:layout_marginEnd="10dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/white"/>
+
+
+    <LinearLayout
+        android:id="@+id/layout_name_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/profile_picture_user_profile"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_user_name_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tammy Olson"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/iv_verified_badge"
+            android:layout_width="22dp"
+            android:layout_height="24.5dp"
+            android:layout_marginStart="12dp"
+            android:src="@drawable/ic_badge_verified" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_bio_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="8dp"
+        android:layout_marginHorizontal="16dp"
+        android:gravity="center"
+        android:layout_below="@+id/layout_name_field">
+
+        <TextView
+            android:id="@+id/user_bio_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            tools:text="Programming Expert"
+            android:textAlignment="center"
+            android:textColor="@color/text_color_dark" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/layout_accept_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="8dp"
+        android:layout_marginHorizontal="32dp"
+        android:gravity="center"
+        android:layout_below="@+id/layout_bio_info">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:onClick="onClickAcceptReqBtn"
+            android:text="Accept Friend Request"
+            android:textSize="16sp"
+            android:letterSpacing="0"
+            app:icon="@drawable/ic_check_circle_black_24dp"
+            app:iconGravity="textStart"
+            app:iconPadding="8dp"
+            android:backgroundTint="#00D369"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="false"
+            android:fontFamily="@font/circularstd_book"
+            app:cornerRadius="8dp"
+            android:stateListAnimator="@null"/>
+
+    </LinearLayout>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/user_profile_details_section"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="15dp"
+        android:layout_below="@+id/layout_accept_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:baselineAligned="false"
+                android:weightSum="4"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <LinearLayout
+                    android:visibility="visible"
+                    android:onClick="onClickAddBtn"
+                    android:id="@+id/layout_add_friend"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    tools:ignore="UnusedAttribute,UseCompoundDrawables">
+
+                    <ImageView
+                        android:id="@+id/ic_add_friend_user_profile"
+                        tools:ignore="contentDescription"
+                        android:layout_margin="5dp"
+                        android:tint="@color/text_color_dark"
+                        android:src="@drawable/ic_new_user"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+
+                    <TextView
+                        android:id="@+id/txt_add_fiend_user_profile"
+                        android:textSize="14sp"
+                        android:textColor="@color/text_color_light"
+                        android:text="@string/add_friend"
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:textAlignment="center"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:onClick="onClickCancelReqBtn"
+                    android:id="@+id/layout_cancel_request"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    tools:ignore="UnusedAttribute,UseCompoundDrawables">
+
+                    <ImageView
+                        tools:ignore="contentDescription"
+                        android:layout_margin="5dp"
+                        android:tint="@color/colorMain"
+                        android:src="@drawable/ic_new_user"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+
+                    <TextView
+                        android:textSize="14sp"
+                        android:textColor="@color/colorMain"
+                        android:text="Cancel Request"
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:textAlignment="center"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:onClick="onClickUnFriendBtn"
+                    android:id="@+id/layout_friend_view"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    tools:ignore="UnusedAttribute,UseCompoundDrawables">
+
+                    <ImageView
+                        tools:ignore="contentDescription"
+                        android:layout_margin="5dp"
+                        android:tint="@color/colorMain"
+                        android:src="@drawable/ic_group_black_24dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+
+                    <TextView
+                        android:textSize="14sp"
+                        android:textColor="@color/colorMain"
+                        android:text="Friends"
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:textAlignment="center"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/message_user_profile"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    tools:ignore="UnusedAttribute,UseCompoundDrawables">
+
+                    <ImageView
+                        tools:ignore="contentDescription"
+                        android:layout_margin="5dp"
+                        android:tint="@color/text_color_dark"
+                        android:src="@drawable/messenger"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+
+                    <TextView
+                        android:textSize="14sp"
+                        android:textColor="@color/text_color_light"
+                        android:text="@string/chat"
+                        android:padding="3dp"
+                        android:layout_width="match_parent"
+                        android:textAlignment="center"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/edit_profile_profile"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    tools:ignore="UnusedAttribute,UseCompoundDrawables">
+
+                    <TextView
+                        android:id="@+id/post_count_user_profile"
+                        android:textSize="18sp"
+                        android:text="@string/_0"
+                        android:textColor="@color/text_color_light"
+                        android:padding="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:textSize="18sp"
+                        android:text="@string/posts"
+                        android:textColor="@color/text_color_light"
+                        android:padding="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    tools:ignore="UnusedAttribute,UseCompoundDrawables">
+
+                    <TextView
+                        android:id="@+id/friends_user_profile"
+                        android:textSize="18sp"
+                        android:text="@string/_0"
+                        android:textColor="@color/text_color_light"
+                        android:padding="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:textSize="18sp"
+                        android:text="Friends"
+                        android:textColor="@color/text_color_light"
+                        android:padding="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/talk_time_count"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:drawableStart="@drawable/call_duration"
+                    android:drawablePadding="15dp"
+                    android:padding="10dp"
+                    android:textSize="17sp"
+                    app:drawableTint="@color/text_color_dark" />
+
+
+                <TextView
+                    android:id="@+id/last_call_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:drawableStart="@drawable/lastcall"
+                    android:drawablePadding="15dp"
+                    android:padding="10dp"
+                    android:textSize="17sp"
+                    tools:text="Last call"
+                    app:drawableTint="@color/text_color_dark" />
+
+                <TextView
+                    android:id="@+id/address_user_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:drawableStart="@drawable/ic_location"
+                    android:drawablePadding="15dp"
+                    android:padding="10dp"
+                    android:textSize="17sp"
+                    app:drawableTint="@color/text_color_dark" />
+
+
+
+                <TextView
+                    android:id="@+id/studentInfo_user_profile"
+                    android:padding="10dp"
+                    android:drawableStart="@drawable/ic_school_black_24dp"
+                    android:textSize="17sp"
+                    android:layout_marginStart="5dp"
+                    android:drawablePadding="15dp"
+                    app:drawableTint="@color/text_color_dark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/blood_group_user_profile"
+                    android:padding="10dp"
+                    android:drawableStart="@drawable/ic_blood_drop"
+                    android:textSize="17sp"
+                    android:layout_marginStart="5dp"
+                    android:drawablePadding="15dp"
+                    app:drawableTint="@color/text_color_dark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/birth_date_user_profile"
+                    android:padding="10dp"
+                    android:drawableStart="@drawable/ic_cake_black_24dp"
+                    android:textSize="17sp"
+                    android:layout_marginStart="5dp"
+                    android:drawablePadding="15dp"
+                    app:drawableTint="@color/text_color_dark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/joined_user_profile"
+                    android:padding="10dp"
+                    android:drawableStart="@drawable/ic_supervisor_account_black_24dp"
+                    android:textSize="17sp"
+                    android:layout_marginStart="5dp"
+                    android:drawablePadding="15dp"
+                    app:drawableTint="@color/text_color_dark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/user_profile_details_section"
+    android:orientation="vertical"
+    android:layout_marginTop="15dp">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_user_post_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+</LinearLayout>
+
+
+
+</RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

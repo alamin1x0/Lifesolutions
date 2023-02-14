@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activities.DashboardActivity">
+    
+  <com.google.android.material.appbar.AppBarLayout
+      app:elevation="0dp"
+      android:paddingBottom="4dp"
+      android:background="@drawable/dashboard_background"
+      android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <androidx.appcompat.widget.Toolbar
+          app:titleTextColor="@color/white"
+          android:gravity="center_vertical"
+          app:title="My Dashboard"
+          android:id="@+id/toolbar_dashboard"
+          android:layout_width="match_parent"
+          android:layout_height="45dp"
+          app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+      <RelativeLayout
+          android:id="@+id/users_item"
+          android:paddingTop="8dp"
+          android:paddingStart="15dp"
+          android:paddingEnd="1dp"
+          android:paddingBottom="8dp"
+          android:orientation="horizontal"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+          <de.hdodenhof.circleimageview.CircleImageView
+              android:id="@+id/profile_Image_dashboard"
+              android:layout_width="62dp"
+              android:layout_marginStart="2dp"
+              android:scaleType="centerCrop"
+              android:layout_height="62dp"/>
+
+
+          <LinearLayout
+              android:layout_toEndOf="@+id/profile_Image_dashboard"
+              android:layout_marginStart="10dp"
+              android:layout_centerVertical="true"
+              android:orientation="vertical"
+              android:gravity="center_vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+              <TextView
+                  android:paddingStart="10dp"
+                  android:paddingEnd="1dp"
+                  android:id="@+id/name_dashboard"
+                  android:textColor="@color/white"
+                  android:paddingTop="2dp"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textStyle="bold"
+                  android:textSize="20sp" />
+
+              <TextView
+                  android:id="@+id/address_dashboard"
+                  android:paddingStart="12dp"
+                  android:paddingEnd="1dp"
+                  android:textColor="@color/white"
+                  android:textSize="15sp"
+                  android:paddingBottom="2dp"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" />
+
+          </LinearLayout>
+
+      </RelativeLayout>
+      
+  </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border_background"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:id="@+id/point_section"
+                android:paddingTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingStart="50dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/point_dashboard"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    app:drawableTint="@color/colorMain"
+                    android:textColor="@color/colorMain"
+                    android:drawablePadding="5dp"
+                    android:drawableStart="@drawable/ic_attach_money_black_24dp"
+                    android:text="100"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:padding="10dp"
+                    android:id="@+id/refer_dashboard"
+                    android:layout_toEndOf="@+id/point_dashboard"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="15dp"
+                    app:drawableTint="@color/colorMain"
+                    android:textColor="@color/colorMain"
+                    android:drawablePadding="6dp"
+                    android:drawableStart="@drawable/ic_person_outline_black_24dp"
+                    android:text="2"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:textSize="16sp"
+                    app:drawableTint="@color/icon5"
+                    android:drawablePadding="5dp"
+                    android:textColor="@color/icon5"
+                    android:drawableEnd="@drawable/ic_keyboard_arrow_right_black_24dp"
+                    android:text="Redeem"
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/my_profile_dashboard"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:paddingStart="15dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingEnd="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:textSize="18sp"
+                    android:text="@string/my_profile"
+                    android:drawablePadding="12dp"
+                    app:drawableTint="@color/colorMain"
+                    android:drawableStart="@drawable/ic_person_black_24dp"
+                    android:textColor="@color/text_color_dark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="5dp"
+                    android:layout_alignParentEnd="true"
+                    android:tint="@color/text_color_light"
+                    android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_marginStart="50dp"
+                android:background="@color/viewBackground"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <RelativeLayout
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:paddingStart="15dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingEnd="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:textSize="18sp"
+                    android:text="@string/partner"
+                    android:drawablePadding="12dp"
+                    app:drawableTint="@color/colorMain"
+                    android:drawableStart="@drawable/ic_group_add_black_24dp"
+                    android:textColor="@color/text_color_dark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="5dp"
+                    android:layout_alignParentEnd="true"
+                    android:tint="@color/text_color_light"
+                    android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_marginStart="50dp"
+                android:background="@color/viewBackground"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <RelativeLayout
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:paddingStart="15dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingEnd="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:textSize="18sp"
+                    android:text="@string/communication"
+                    android:drawablePadding="12dp"
+                    app:drawableTint="@color/colorMain"
+                    android:drawableStart="@drawable/ic_public_black_24dp"
+                    android:textColor="@color/text_color_dark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="5dp"
+                    android:layout_alignParentEnd="true"
+                    android:tint="@color/text_color_light"
+                    android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_marginStart="50dp"
+                android:background="@color/viewBackground"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <RelativeLayout
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:paddingStart="15dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingEnd="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:textSize="18sp"
+                    android:text="@string/leadership_institute"
+                    app:drawableTint="@color/colorMain"
+                    android:drawablePadding="12dp"
+                    android:drawableStart="@drawable/ic_record_voice_over_black_24dp"
+                    android:textColor="@color/text_color_dark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="5dp"
+                    android:layout_alignParentEnd="true"
+                    android:tint="@color/text_color_light"
+                    android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_marginStart="50dp"
+                android:background="@color/viewBackground"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <RelativeLayout
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:paddingStart="15dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingEnd="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:textSize="18sp"
+                    android:text="@string/my_groups"
+                    app:drawableTint="@color/colorMain"
+                    android:drawablePadding="12dp"
+                    android:drawableStart="@drawable/ic_group_black_24dp"
+                    android:textColor="@color/text_color_dark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="5dp"
+                    android:layout_alignParentEnd="true"
+                    android:tint="@color/text_color_light"
+                    android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_marginStart="50dp"
+                android:background="@color/viewBackground"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <RelativeLayout
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:paddingStart="15dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingEnd="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:textSize="18sp"
+                    android:text="@string/friend_list"
+                    android:drawablePadding="12dp"
+                    app:drawableTint="@color/colorMain"
+                    android:drawableStart="@drawable/ic_contacts_black_24dp"
+                    android:textColor="@color/text_color_dark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="5dp"
+                    android:layout_alignParentEnd="true"
+                    android:tint="@color/text_color_light"
+                    android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_marginStart="50dp"
+                android:background="@color/viewBackground"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <RelativeLayout
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:paddingStart="15dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingEnd="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:textSize="18sp"
+                    android:text="Blood Donation"
+                    android:drawablePadding="12dp"
+                    app:drawableTint="@color/colorMain"
+                    android:drawableStart="@drawable/ic_blood_drop"
+                    android:textColor="@color/text_color_dark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="5dp"
+                    android:layout_alignParentEnd="true"
+                    android:tint="@color/text_color_light"
+                    android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_marginStart="50dp"
+                android:background="@color/viewBackground"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <RelativeLayout
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:paddingStart="15dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingEnd="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:textSize="18sp"
+                    android:text="@string/developer_info"
+                    android:drawablePadding="12dp"
+                    app:drawableTint="@color/colorMain"
+                    android:drawableStart="@drawable/ic_code_black_24dp"
+                    android:textColor="@color/text_color_dark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="5dp"
+                    android:layout_alignParentEnd="true"
+                    android:tint="@color/text_color_light"
+                    android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_marginStart="50dp"
+                android:background="@color/viewBackground"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <RelativeLayout
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:paddingStart="15dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:paddingEnd="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_centerVertical="true"
+                    android:textSize="18sp"
+                    android:text="@string/more"
+                    android:drawablePadding="12dp"
+                    app:drawableTint="@color/colorMain"
+                    android:drawableStart="@drawable/ic_more_horiz_black_24dp"
+                    android:textColor="@color/text_color_dark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="5dp"
+                    android:layout_alignParentEnd="true"
+                    android:tint="@color/text_color_light"
+                    android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_marginStart="50dp"
+                android:background="@color/viewBackground"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

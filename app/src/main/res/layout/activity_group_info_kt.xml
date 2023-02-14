@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_group_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_group_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="center_vertical"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".kotlinCode.ui.activities.GroupInfoKtActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                android:gravity="center">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/iv_group_image"
+                        android:layout_width="95dp"
+                        android:layout_height="95dp"
+                        android:src="@drawable/ic_group_placeholder"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <LinearLayout
+                        android:layout_width="34dp"
+                        android:layout_height="34dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:background="@drawable/ciecle_bg_edit"
+                        app:layout_constraintBottom_toBottomOf="@+id/iv_group_image"
+                        app:layout_constraintStart_toEndOf="@+id/iv_group_image">
+
+                        <ImageView
+                            android:id="@+id/btn_edit_group_pen"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_edit_black_24dp"
+                            tools:ignore="PrivateResource" />
+
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/group_info_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/item_border_view_bg"
+                android:layout_marginHorizontal="6dp"
+                android:layout_marginVertical="8dp"
+                android:paddingVertical="10dp"
+                app:layout_constraintEnd_toEndOf="@+id/iv_group_image"
+                app:layout_constraintStart_toStartOf="@+id/iv_group_image"
+                app:layout_constraintTop_toBottomOf="@+id/iv_group_image"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_group_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Group Name"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    app:layout_constraintEnd_toEndOf="@+id/iv_group_image"
+                    app:layout_constraintStart_toStartOf="@+id/iv_group_image"
+                    app:layout_constraintTop_toBottomOf="@+id/iv_group_image" />
+
+                <TextView
+                    android:id="@+id/tv_group_created_at"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    tools:text="Sinch 12 july 2020"
+                    app:layout_constraintEnd_toEndOf="@+id/tv_group_name"
+                    app:layout_constraintStart_toStartOf="@+id/tv_group_name"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_group_name" />
+
+            </LinearLayout>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_add_member"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:onClick="onClickAddMember"
+                android:text="Add Member"
+                android:backgroundTint="#0577FF"
+                app:icon="@drawable/ic_add_plus"
+                app:iconSize="24dp"
+                app:iconGravity="textStart"
+                app:iconPadding="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/group_info_view" />
+
+            <EditText
+                android:id="@+id/ed_search_group_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/background_edit_text_search"
+                android:drawableStart="@drawable/ic_search_black_24dp"
+                android:drawablePadding="8dp"
+                android:hint="@string/search"
+                android:paddingStart="16dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="12dp"
+                android:paddingBottom="8dp"
+                android:textSize="16sp"
+                app:drawableTint="@color/text_color_light"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view_bottom_sheet"
+                android:inputType="textPersonName"
+                tools:ignore="Autofill" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_group_members"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_add_member" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:onClick="onLeaveGroup"
+                android:id="@+id/btn_leave_group"
+                android:layout_height="58dp"
+                android:layout_marginTop="50dp"
+                android:text="Leave Group"
+                android:backgroundTint="@color/colorMain"
+                android:fontFamily="@font/circularstd_book"
+                android:letterSpacing="0"
+                android:stateListAnimator="@null"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                app:cornerRadius="0dp"
+                app:icon="@drawable/ic_exit_new"
+                app:iconSize="18dp"
+                app:iconGravity="textStart"
+                app:iconPadding="18dp" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

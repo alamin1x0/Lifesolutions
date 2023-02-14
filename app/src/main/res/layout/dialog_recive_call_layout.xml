@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/audio_call_bg_new"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/user"
+        android:id="@+id/profile_image_call_dialog"
+        android:layout_gravity="start"
+        android:layout_marginEnd="10dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/white"/>
+
+    <TextView
+        android:layout_below="@+id/profile_image_call_dialog"
+        android:id="@+id/name_call_dialog"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/address_call_dialog"
+        android:layout_below="@+id/name_call_dialog"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Chronometer
+        android:id="@+id/timer_call_dialog"
+        android:visibility="gone"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/address_call_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:id="@+id/bottom_layout_receive_dialog"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="35dp"
+        app:backgroundTint="@color/green"
+        android:gravity="center_horizontal"
+        android:layout_marginRight="35dp"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageButton
+            android:id="@+id/call_accept_call_dialog"
+            android:layout_alignParentStart="true"
+            android:clickable="true"
+            app:backgroundTint="@color/green"
+            android:focusable="true"
+            android:tint="@color/white"
+            android:src="@drawable/ic_call_call_24dp"
+            android:background="@drawable/login_button_background"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            tools:ignore="ContentDescription" />
+
+        <ImageButton
+            android:id="@+id/call_reject_call_dialog"
+            app:backgroundTint="@color/red"
+            android:layout_alignParentEnd="true"
+            android:clickable="true"
+            android:tint="@color/white"
+            android:src="@drawable/ic_close_call_24dp"
+            android:focusable="true"
+            android:background="@drawable/login_button_background"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_layout_calling_dialog"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageButton
+            android:id="@+id/loud_call_dialog"
+            android:clickable="true"
+            app:backgroundTint="@color/text_color_dark"
+            android:focusable="true"
+            android:layout_marginEnd="20sp"
+            android:tint="@color/white"
+            android:src="@drawable/ic_speaker_new"
+            android:background="@drawable/login_button_background"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            tools:ignore="ContentDescription" />
+
+        <ImageButton
+            android:id="@+id/mute_call_dialog"
+            android:clickable="true"
+            app:backgroundTint="@color/text_color_dark"
+            android:focusable="true"
+            android:tint="@color/white"
+            android:src="@drawable/ic_mute_new"
+            android:background="@drawable/login_button_background"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            tools:ignore="ContentDescription" />
+
+        <ImageButton
+            android:id="@+id/decline_call_dialog"
+            app:backgroundTint="@color/red"
+            android:clickable="true"
+            android:tint="@color/white"
+            android:layout_marginStart="20sp"
+            android:src="@drawable/ic_call_end_call_24dp"
+            android:focusable="true"
+            android:background="@drawable/login_button_background"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

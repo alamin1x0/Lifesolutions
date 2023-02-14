@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2A2C39"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".kotlinCode.ui.home.conversations.ConversationsFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:background="#2A2C39"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- app:layout_scrollFlags="scroll|enterAlways" -->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#FFF"
+            android:elevation="0dp"
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Conversations"
+                android:textColor="#7C7C7C"
+                android:fontFamily="@font/circular_std_medium"
+                android:textSize="24sp" />
+
+            <ImageButton
+                android:id="@+id/search_button_home_kt"
+                android:tint="@color/text_color_dark"
+                android:background="@color/transparent"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_gravity="end"
+                android:src="@drawable/ic_search_black_24dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                tools:ignore="ContentDescription" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout_chat"
+            app:tabIndicatorHeight="0dp"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/round_shape"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            app:tabMode="scrollable"
+            app:tabTextAppearance="@style/CustomTabStyle"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <!-- app:layout_behavior="@string/appbar_scrolling_view_behavior" -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_active_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appBar"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/online_user_item_view_kt" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager_chat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rv_active_list"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+</RelativeLayout>

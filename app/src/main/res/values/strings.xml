@@ -1,0 +1,231 @@
+<resources>
+    <string name="app_name">Lifesolutions BD</string>
+    <string name="password">Password</string>
+
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner_ads_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitia_ads_id">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_account_register_here">Don\'t have account? Register Here</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="already_have_an_account_login_here">Already have an account? Login Here</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="address">Address</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="refer_code_optional">Refer Code (Optional)</string>
+    <string name="verification_code_sent_to_your_entered_phone_number_please_enter_verification_code_to_complete_registration">Verification Code sent to your entered Phone Number please enter Verification Code to complete Registration</string>
+    <string name="complete_registration">Complete Registration</string>
+    <string name="didn_t_get_code">Didn\'t get Code?</string>
+    <string name="logout">Logout</string>
+    <string name="add">Add</string>
+    <string name="write_your_comment">Write your comment</string>
+    <string name="edit">Edit</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="live">Live</string>
+    <string name="groups">Groups</string>
+    <string name="games">Games</string>
+    <string name="school">School</string>
+    <string name="exam">Exam</string>
+    <string name="video">Video</string>
+    <string name="store">Store</string>
+    <string name="more">More</string>
+    <string name="show">Show</string>
+    <string name="communication">Communication</string>
+    <string name="leadership_institute">Leadership Institute</string>
+    <string name="my_groups">My Groups</string>
+    <string name="friend_list">Friend List</string>
+    <string name="partner">Partner</string>
+    <string name="developer_info">Developer Info</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="write_post">Write Post</string>
+    <string name="donation">Donation</string>
+    <string name="donate">Donate</string>
+    <string name="blood_group">Blood Group :</string>
+    <string name="study_information">Study Information</string>
+    <string name="first_name">First Name</string>
+    <string name="recover_your_password">Recover your password</string>
+    <string name="login_here">Login here</string>
+    <string name="search">Search</string>
+    <string name="enter_your_message">Enter your message</string>
+    <string name="hello">Hello</string>
+    <string name="comment">Comment</string>
+    <string name="quit">Quit</string>
+    <string name="next">Next</string>
+    <string name="are_you_sure_to_exit">Are you sure to exit</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="ops">Ops !</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="refresh">Refresh</string>
+    <string name="add_post">Add Post</string>
+    <string name="share">Share</string>
+    <string name="like">Like</string>
+    <string name="save">Save</string>
+    <string name="publish">Publish</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="don_t_have_any_account">Don\'t have any account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_account">Already have account ?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="enter_the_6_digit_code_send_to_your_mobile_number">Enter the 6 digit code send to your mobile number</string>
+    <string name="resend">Resend</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="registration">Registration</string>
+    <string name="write_something_and_share_with_your_friends">What\'s on your mind?</string>
+    <string name="skip_now">Skip Now</string>
+    <string name="complete">Complete</string>
+    <string name="favorite_contacts">Favorite Contacts</string>
+    <string name="messages">Messages</string>
+    <string name="skills">Skills</string>
+    <string name="my_posts">My Posts</string>
+    <string name="refer">Refer</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="see_all_post">See all post</string>
+    <string name="upload">Upload</string>
+    <string name="pages">Pages</string>
+    <string name="you_don_t_have_complete_your_profile">You don\'t have complete your profile</string>
+    <string name="posts">Posts</string>
+    <string name="followers">Followers</string>
+    <string name="programming_expert_lv_4">Programming Expert Lv. 4</string>
+    <string name="add_friend">Add Friend</string>
+    <string name="_0">0</string>
+    <string name="profile_update">Profile Update</string>
+    <string name="your_name">Your Name</string>
+    <string name="audio_call">Audio Call</string>
+    <string name="video_call">Video Call</string>
+    <string name="blood_bank">Blood Bank</string>
+    <string name="home">Home</string>
+    <string name="quick_links">Quick Links</string>
+    <string name="wallet">Wallet</string>
+    <string name="dictionary">Dictionary</string>
+    <string name="rate_us">Rate US</string>
+    <string name="our_facebook_groups">Our Facebook Groups</string>
+    <string name="settings">Settings</string>
+    <string name="send_feedback">Send feedback</string>
+    <string name="about_us">About Us</string>
+    <string name="share_with_your_friends">Share with your Friends</string>
+    <string name="copy_code">Copy\nCode</string>
+    <string name="your_referral_code">Your Referral Code</string>
+    <string name="_100">100</string>
+    <string name="refer_your_friends_and_earn">Refer Your Friends and Earn</string>
+    <string name="friend_requests">Friend Requests</string>
+    <string name="news_feed">News Feed</string>
+    <string name="practice_english">Practice English</string>
+    <string name="with_random_person">With Random Person</string>
+    <string name="talk_to_level_1_speaker">Talk to Level-1 Speaker</string>
+    <string name="talk_to_level_2_speaker">Talk to Level-2 Speaker</string>
+    <string name="call_from_random_person">Call From Random Person</string>
+    <string name="tap_mic_button_to_start_recording">Tap Mic button to start recording</string>
+    <string name="my_rank">My Rank : </string>
+    <string name="_200">200</string>
+    <string name="self">Self</string>
+    <string name="_00_00">00:00</string>
+    <string name="bio">Bio</string>
+    <string name="example_gmail_com">example@gmail.com</string>
+    <string name="chat">Chat</string>
+    <string name="x">X</string>
+    <string name="start_talking">Start Talking</string>
+    <string name="star">Star</string>
+    <string name="write_something">Write something...</string>
+    <string name="facebook_app_id">544469616422706</string>
+
+    <string name="fb_login_protocol_scheme">fb544469616422706</string>
+    <string name="reply">Reply</string>
+    <string name="write_your_reply">Write your reply</string>
+    <string name="apply_for_teacher">Apply for teacher</string>
+    <string name="interest_based">Interest Based</string>
+    <string name="advanced_speaker">Advanced Speaker</string>
+    <string name="speaking_partner">Speaking Partner</string>
+    <string name="teacher_panel">Teacher Panel</string>
+    <string name="type_to_search_post">Type to search post</string>
+    <string name="finding_your_partner">Finding your partner</string>
+    <string name="write_group_description_here_n_n_n">Write group description here \n\n\n</string>
+    <string name="description">Description</string>
+    <string name="write_group_title">Write groupe title</string>
+    <string name="title">Title</string>
+    <string name="group_title">Group Title</string>
+    <string name="group_description">Group Description</string>
+    <string name="group_name">Group name</string>
+    <string name="write_group_name_here">Write group name here</string>
+    <string name="for_unlock_this_feature_you_must_need_at_least_5000_coins">For unlock this feature you must need at least 5000 coins</string>
+    <string name="earn">Earn</string>
+    <string name="close">Close</string>
+    <string name="collect_5000_coins_to_unlock">Collect 5000 coins To unlock</string>
+    <string name="photo">Photo</string>
+    <string name="attach">Attach</string>
+    <string name="congratulation">Congratulation</string>
+    <string name="collect">Collect</string>
+    <string name="you_got_1_points">You got 1 points</string>
+    <string name="type_to_search_users">Type first name to search users</string>
+    <string name="find_friends">Find Friends</string>
+    <string name="starnote_audio_call">Lifesolutions Audio Call</string>
+    <string name="contacting">Contacting</string>
+    <string name="pick_image">Pick Image</string>
+    <string name="remove">Remove</string>
+    <string name="aa">Aa</string>
+    <string name="create_a_post">Create a post</string>
+    <string name="apply">Apply</string>
+    <string name="star_note_social_app_is_a_product_of_stardigi_international_it_is_developed_in_bangladesh_by_a_group_of_very_talented_developers_with_their_best_efforts_the_people_behind_the_project_have_decades_of_experiences_in_technology_sector_the_product_is_made_for_bangladeshis_and_bangla_speaking_community_around_the_world_also_teaching_for_english_language_our_goal_is_to_make_a_positive_impact_to_our_users_everyday_life_and_add_value_to_their_life_with_useful_services_we_want_to_create_a_well_educated_nation_reach_us_out_if_you_have_any_query_or_for_any_partnership_opportunities">Star Note English School app is a product of Stardigi International. It is developed in Bangladesh by a group of very talented developers with their best efforts. The people behind the project have decades of experiences in technology sector. The product is made for Bangladeshis and Bangla speaking community around the world also teaching for English language. Our goal is to make a positive impact to our users everyday life and add value to their life with useful services. We want to create a well educated nation. Reach us out if you have any query or for any partnership opportunities.</string>
+    <string name="my_profile">My Profile</string>
+    <string name="voice_call">Voice call</string>
+    <string name="random_partner">Random Partner</string>
+    <string name="loading">loading</string>
+    <string name="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries it to make a type specimen book. It has survived not only five centuries</string>
+
+    <string-array name="blood_group">
+        <item>Select</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- For Bottom Image Picker -->
+    <string name="file_provider" translatable="false">com.stardigiinternational.starnotee.fileprovider</string>
+    <string name="pick_single">Please select your image</string>
+    <plurals name="pick_multi">
+        <item quantity="one">One image selected</item>
+        <item quantity="other">%1$d images selected</item>
+    </plurals>
+    <plurals name="pick_multi_more">
+        <item quantity="one">Please select one more image…</item>
+        <item quantity="other">Please select %1$d more images…</item>
+    </plurals>
+    <string name="pick_multi_limit">You have more than %1$d images selected…</string>
+
+    <string name="new_update_available">New update available</string>
+    <string name="please_update_app_first">Please update app first.</string>
+    <string name="update_now">Update now</string>
+    <string name="please_allow_all_permission">Please Allow this permissions</string>
+    <string name="please_allow_overlay_permission">Please Allow Overlay permissions</string>
+    <string name="you_can_t_call_this_person_unless_being_a_friend">You can not call this person unless being a friend</string>
+    <string name="accept">Accept</string>
+    <string name="delete">Delete</string>
+    <!-- PLEASE KEEP THIS App ID IN SAFE PLACE -->
+    <!-- Get your own App ID at https://dashboard.agora.io/ -->
+    <!-- After you entered the App ID, remove <##> outside of Your App ID -->
+    <!-- For formal released project, please use Security Keys/Token
+        https://docs.agora.io/en/Video/token?platform=All%20Platforms -->
+    <string name="agora_app_id">41885d597c9b4601807d940ad8d6433f</string>
+    <!-- Please leave it if not enable App Certificate -->
+    <!-- You can generate a temporary token at https://dashboard.agora.io/projects -->
+    <string name="agora_access_token">00641885d597c9b4601807d940ad8d6433fIABiATYd2EJgmCIgGeYIF4pt4M70tosrOkZGHVuQdiEhjwJe3ZYAAAAAEADTnBZ6oaYvYQEAAQChpi9h</string>
+
+
+</resources>

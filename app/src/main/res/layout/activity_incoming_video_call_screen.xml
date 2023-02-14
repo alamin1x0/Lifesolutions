@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.IncomingVideoCallScreenActivity">
+
+    <ImageView
+        android:id="@+id/video_call_bg_profile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription"/>
+
+    <ImageView
+        android:id="@+id/fixed_bg_color"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/audio_call_gradient_bg"
+        android:alpha="0.75"
+        tools:ignore="ContentDescription"/>
+
+    <TextView
+        android:id="@+id/heading_incoming_video_call"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:text="Incoming video call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/heading_incoming_video_call"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/user"
+        android:id="@+id/profile_image_incoming_video_call"
+        android:layout_gravity="start"
+        android:layout_marginEnd="10dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/white"/>
+
+    <TextView
+        android:layout_below="@+id/profile_image_incoming_video_call"
+        android:id="@+id/name_incoming_video_call"
+        android:textSize="22sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        tools:text="Md Iqbal Hossen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/address_incoming_video_call"
+        android:layout_below="@+id/name_incoming_video_call"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="35dp"
+        app:backgroundTint="@color/green"
+        android:gravity="center_horizontal"
+        android:layout_marginRight="35dp"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageButton
+            android:id="@+id/call_accept_incoming_video_call"
+            android:layout_alignParentStart="true"
+            android:clickable="true"
+            app:backgroundTint="@color/green_pure"
+            android:focusable="true"
+            android:tint="@color/white"
+            android:src="@drawable/ic_videocam_black_24dp"
+            android:background="@drawable/login_button_background"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            tools:ignore="ContentDescription" />
+
+        <ImageButton
+            android:id="@+id/call_reject_incoming_video_call"
+            app:backgroundTint="@color/red_pure"
+            android:layout_alignParentEnd="true"
+            android:clickable="true"
+            android:tint="@color/white"
+            android:src="@drawable/ic_close_call_24dp"
+            android:focusable="true"
+            android:background="@drawable/login_button_background"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

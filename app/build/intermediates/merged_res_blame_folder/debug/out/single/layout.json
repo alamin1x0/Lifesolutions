@@ -1,0 +1,810 @@
+[
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_comment_reply.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_comment_reply.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_campus_ambassador.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_campus_ambassador.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/random_call_fragment.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/random_call_fragment.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_ecommerce.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_ecommerce.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_all_ambassador.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_all_ambassador.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_translate.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_translate.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_show.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_show.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_agora_random_voice_call.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_agora_random_voice_call.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/teacher_details_card_dialog.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/teacher_details_card_dialog.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_quiz.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_quiz.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/report_edittext.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/report_edittext.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_agora_random_call.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_agora_random_call.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/user_conversation_list_item.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/user_conversation_list_item.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/group_chat_item_right.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/group_chat_item_right.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_user_profile_kt.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_user_profile_kt.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/voice_record_dialog.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/voice_record_dialog.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/stream_activity.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/stream_activity.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_courses.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_courses.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_request_list.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_request_list.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/profile_post_item.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/profile_post_item.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_choose_live.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_choose_live.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/fragment_additional_step_kt.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/fragment_additional_step_kt.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_about_developer.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_about_developer.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/menu_fragment.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/menu_fragment.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/group_chat_item_left.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/group_chat_item_left.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/contact_list.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/contact_list.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_create_chat_group.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_create_chat_group.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_teacher_single.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_teacher_single.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/post_item_big_text_layout_kt.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/post_item_big_text_layout_kt.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/dialog_with_recycler_view.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/dialog_with_recycler_view.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/ambassador_card_view_hz.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/ambassador_card_view_hz.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/feed_fragment.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/feed_fragment.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_group_chat_list.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_group_chat_list.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/horizontal_list_item.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/horizontal_list_item.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_apply_for_teacher.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_apply_for_teacher.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/chat_list_item.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/chat_list_item.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/dialog_coming_soon_layout.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/dialog_coming_soon_layout.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/post_item_multi_image_layout.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/post_item_multi_image_layout.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_video_call_screen.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_video_call_screen.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/all_online_user_item_view.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/all_online_user_item_view.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/layout_call.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/layout_call.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_add_member.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_add_member.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/video_item_layout.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/video_item_layout.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_intro_kt.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_intro_kt.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_login_kt_small.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_login_kt_small.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/fragment_required_step_kt.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/fragment_required_step_kt.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/chat_fragment.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/chat_fragment.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_settings.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_my_test2.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_my_test2.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_join_group.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_join_group.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/class_item_layout.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/class_item_layout.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_audio_player.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_audio_player.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_message.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_message.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_random_call_ongoing.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_random_call_ongoing.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_all_activer_user.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_all_activer_user.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/dialogue_with_edittext.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/dialogue_with_edittext.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/live_video_item_layout.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/live_video_item_layout.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_add_group_member.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_add_group_member.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_call_screen.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_call_screen.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/new_random_call_fragment.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/new_random_call_fragment.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/fragment_course.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/fragment_course.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/dialog_layout_warning.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/dialog_layout_warning.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/image_upload_dialog.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/image_upload_dialog.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/group_list_item_vertical.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/group_list_item_vertical.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_leaderboard_mothly.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_leaderboard_mothly.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_all_group_list.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_all_group_list.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_video.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_video.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/new_search_list.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/new_search_list.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_search_friend.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_search_friend.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_group_info_kt.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_group_info_kt.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/post_video_layout.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/post_video_layout.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/community_cardview_hz.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/community_cardview_hz.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_buy_coin.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_buy_coin.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_test.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_test.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/fragment_group_list.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/fragment_group_list.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_youtube_play.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_youtube_play.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_web_view.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_web_view.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_custom_call_recieve.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_custom_call_recieve.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/layout_video_list_item.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/layout_video_list_item.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/teacher_details_card.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/teacher_details_card.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/teacher_card_view_hz.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/teacher_card_view_hz.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_friend_request_list.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_friend_request_list.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/address_dialog.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/address_dialog.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_all_friends_list.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_all_friends_list.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/dialog_voice_message_player.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/dialog_voice_message_player.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/image_view_dialog.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/image_view_dialog.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_course_web_view.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_course_web_view.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_group_chat.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_group_chat.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_friend_list.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_friend_list.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_test_noti.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_test_noti.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_leader_board.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_leader_board.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/notification_fragment.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/notification_fragment.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/fragment_call_list.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/fragment_call_list.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_refer.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_refer.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/edit_post_dailog.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/edit_post_dailog.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/chat_item_layout.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/chat_item_layout.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_registration_kt.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_registration_kt.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_kotlin_base.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_kotlin_base.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_all_user_post.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_all_user_post.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_incoming_call_screen.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_incoming_call_screen.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/group_chat_list_item.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/group_chat_list_item.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/online_user_item_view_kt.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/online_user_item_view_kt.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/course_video_card.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/course_video_card.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_about_us.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_about_us.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_course_single.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_course_single.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/comment_layout.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/comment_layout.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_campuss_ambassador.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_campuss_ambassador.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_all_courses.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_all_courses.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_game.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_game.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_mini_app_list.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_mini_app_list.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/ambassadors_details_card_dialog.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/ambassadors_details_card_dialog.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_search.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_search.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/post_item_only_text_layout_kt.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/post_item_only_text_layout_kt.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_group_view.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_group_view.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_view_image.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_view_image.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/native_ads_layout.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/native_ads_layout.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/item_layout_leader_board.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/item_layout_leader_board.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_ambassador.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_ambassador.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_login_kt.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_login_kt.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_add_data.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_add_data.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/post_item_link_layout_kt.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/post_item_link_layout_kt.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/choose_live_updated.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/choose_live_updated.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/find_friends_item_layout.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/find_friends_item_layout.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_ambassador_single.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_ambassador_single.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_all_teachers.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_all_teachers.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/contact_item.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/contact_item.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_accept_member.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_accept_member.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_my_post_list.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_my_post_list.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/spinner_layout.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/spinner_layout.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/ambassador_details_card.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/ambassador_details_card.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/profile_dialog_layout.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/profile_dialog_layout.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_my_test.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_my_test.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_view_stream.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_view_stream.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/dialog_create_group_layout.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/dialog_create_group_layout.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_personal_message.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_personal_message.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/call_log_list_item.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/call_log_list_item.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/error_dialog_layout.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/error_dialog_layout.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/movies_fragment.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/movies_fragment.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_stream.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_stream.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/reaction_layout.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/reaction_layout.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/fragment_call_history_.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/fragment_call_history_.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_exam.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_exam.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/user_layout.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/user_layout.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_video_play.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_video_play.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/user_list_view_group_member.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/user_list_view_group_member.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/dialog_bonus_layout.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/dialog_bonus_layout.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_splash.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/user_list_view_one.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/user_list_view_one.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_find_friends.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_find_friends.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/post_item_layout_kt.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/post_item_layout_kt.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_password_recovery.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_password_recovery.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_calling.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_calling.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/buy_coin_card_dialog.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/buy_coin_card_dialog.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_user_friend_list.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_user_friend_list.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_school.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_school.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_profile.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/fragment_chat_list.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/fragment_chat_list.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_search_users.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_search_users.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_donate.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_donate.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/conversations_fragment.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/conversations_fragment.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_news.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_news.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_online_game.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_online_game.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_full_post.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_full_post.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/chat_item_left.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/chat_item_left.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/animated_loading_layout.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/animated_loading_layout.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_create_post_kt.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_create_post_kt.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_edit_profile_info_kt.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_edit_profile_info_kt.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/post_with_multi_image.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/post_with_multi_image.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/xi_alert_box.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/xi_alert_box.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_dashboard.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_video_view.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_video_view.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/dialog_recive_call_layout.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/dialog_recive_call_layout.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/dialog_recovery_password.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/dialog_recovery_password.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/friend_list_conversation.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/friend_list_conversation.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/apply_refer_code_dialog.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/apply_refer_code_dialog.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/s_custom_progress_dialog.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/s_custom_progress_dialog.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/notification_layout.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/notification_layout.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_video_list.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_video_list.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_all_campus_ambassador_view.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_all_campus_ambassador_view.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_user_profile.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_user_profile.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_stream_view_list.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_stream_view_list.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/course_enroll_dialog.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/course_enroll_dialog.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/layout_alert_dialog.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/layout_alert_dialog.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_main.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/course_card_view_hz.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/course_card_view_hz.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/privacy_spinner_row.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/privacy_spinner_row.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_request_accept.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_request_accept.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_incoming_video_call_screen.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_incoming_video_call_screen.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/friend_card_layout.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/friend_card_layout.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/dialog_not_enough_coin.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/dialog_not_enough_coin.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/post_item_layout.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/post_item_layout.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/chat_item_right.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/chat_item_right.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_own_profile.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_own_profile.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/post_placeholder_layout.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/post_placeholder_layout.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_edit_group.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_edit_group.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_group_message.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_group_message.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/s_gender_dropdown_view.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/s_gender_dropdown_view.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_custom_call.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_custom_call.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/image_view__on_feed.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/image_view__on_feed.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/layout_intro_screen.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/layout_intro_screen.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/activity_friend_request_list_kt.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/activity_friend_request_list_kt.xml"
+    },
+    {
+        "merged": "com.lifesolutions.bd.app-mergeDebugResources-92:/layout/course_details_card.xml",
+        "source": "com.lifesolutions.bd.app-main-95:/layout/course_details_card.xml"
+    }
+]

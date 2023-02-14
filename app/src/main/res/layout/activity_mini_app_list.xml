@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".kotlinCode.ui.activities.MiniAppListActivity">
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_mini_app"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <GridLayout
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4">
+
+        <LinearLayout
+            android:id="@+id/menu_chaldal"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginBottom="12dp"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingVertical="3dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/layout_clickable_ripple_kt">
+
+            <ImageView
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:src="@drawable/ic_chaldal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chaldal"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:paddingVertical="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menu_baajna"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginBottom="12dp"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingVertical="3dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/layout_clickable_ripple_kt">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_baajna" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Baajna"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:paddingVertical="10dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/menu_hungrinaki"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginBottom="12dp"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingVertical="3dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/layout_clickable_ripple_kt">
+
+            <ImageView
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:src="@drawable/ic_hungrinaki" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HungriNaki"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:paddingVertical="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menu_hash"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginBottom="12dp"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingVertical="3dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/layout_clickable_ripple_kt">
+
+            <ImageView
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:src="@drawable/ic_chat_logo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Story Book"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:paddingVertical="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menu_jhalmuri"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginBottom="12dp"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingVertical="3dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/layout_clickable_ripple_kt">
+
+            <ImageView
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:src="@drawable/ic_jhalmuri" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jhalmuri"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:paddingVertical="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/menu_map"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginBottom="12dp"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingVertical="3dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/layout_clickable_ripple_kt">
+
+            <ImageView
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:src="@drawable/ic_dingi_map" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dingi Map"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:paddingVertical="10dp"/>
+
+        </LinearLayout>
+
+    </GridLayout>
+
+</LinearLayout>

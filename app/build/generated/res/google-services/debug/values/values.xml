@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://lifesolutions-bd-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">584386566914</string>
+    <string name="google_api_key" translatable="false">AIzaSyCuuAKQ9ornIS411ArJeba415ZXkDm0Dsk</string>
+    <string name="google_app_id" translatable="false">1:584386566914:android:29c5c631521a80c3e0401b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCuuAKQ9ornIS411ArJeba415ZXkDm0Dsk</string>
+    <string name="google_storage_bucket" translatable="false">lifesolutions-bd.appspot.com</string>
+    <string name="project_id" translatable="false">lifesolutions-bd</string>
+</resources>

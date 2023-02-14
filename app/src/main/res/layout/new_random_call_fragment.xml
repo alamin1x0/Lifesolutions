@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".kotlinCode.ui.home.randomCall.NewRandomCallFragment">
+
+
+        <ImageView
+            android:id="@+id/logo_image_random_call"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/starnote_random_page_icon_png"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/image_view_random_call"
+            android:layout_width="0dp"
+            android:layout_height="215dp"
+            android:layout_marginTop="65dp"
+            android:src="@drawable/random_call_image_view_png"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_random_call_action"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="#F2532D"
+            android:fontFamily="@font/circularstd_book"
+            android:letterSpacing="0"
+            android:stateListAnimator="@null"
+            android:text="Random Partner"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            app:cornerRadius="8dp"
+            app:icon="@drawable/ic_random_call_frgment"
+            app:iconGravity="textStart"
+            app:iconPadding="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_random_call" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_messenger_call"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="36dp"
+            android:backgroundTint="#0577FF"
+            android:fontFamily="@font/circularstd_book"
+            android:letterSpacing="0"
+            android:stateListAnimator="@null"
+            android:text="Messenger Call"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            app:cornerRadius="8dp"
+            app:icon="@drawable/ic_telegram"
+            app:iconGravity="textStart"
+            app:iconPadding="36dp"
+            app:layout_constraintEnd_toEndOf="@+id/btn_random_call_action"
+            app:layout_constraintStart_toStartOf="@+id/btn_random_call_action"
+            app:layout_constraintTop_toBottomOf="@+id/btn_random_call_action" />
+
+        <!-- User Online View Area -->
+
+
+        <LinearLayout
+            android:id="@+id/loading_bar_on_user_online"
+            android:visibility="visible"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_messenger_call">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottie_animation_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/loading" />
+
+        </LinearLayout> <!-- Loading Bar -->
+
+        <LinearLayout
+            android:id="@+id/nested_rv_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_messenger_call"
+            android:orientation="vertical">
+            <LinearLayout
+                android:visibility="visible"
+                android:id="@+id/rv_layout_group_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:id="@+id/group_layout_top_r_call"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+                        android:id="@+id/txt_view_group_list"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Groups"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/circularstd_book"
+                        android:textSize="18sp"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="0dp"
+                        android:textColor="@color/colorMain"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true" />
+
+                    <TextView
+                        android:id="@+id/txt_btn_all_group"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:fontFamily="@font/circularstd_book"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="6dp"
+                        android:text="See All"
+                        android:textColor="#ABABAB"
+                        android:textSize="17sp" />
+
+                </RelativeLayout> <!-- Top View -->
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_group_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/rv_layout_active_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_marginBottom="12dp">
+
+                    <TextView
+                        android:id="@+id/txt_view_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Online"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/circularstd_book"
+                        android:textSize="18sp"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="0dp"
+                        android:textColor="@color/colorMain"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true" />
+
+                    <TextView
+                        android:id="@+id/txt_btn_view_all_active_list"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="See All"
+                        android:textSize="17sp"
+                        android:textColor="#ABABAB"
+                        android:fontFamily="@font/circularstd_book"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="6dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true" />
+
+                </RelativeLayout> <!-- Top View -->
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_active_online_user"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

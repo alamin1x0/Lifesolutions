@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/feedFragment"
+        android:icon="@drawable/home_fragment_selector_kt"
+        android:title="Feed" />
+
+    <item
+        android:id="@+id/conversationsFragment"
+        android:icon="@drawable/chat_fragment_selector_kt"
+        android:title="Chat" />
+
+    <item
+        android:id="@+id/courseFragment"
+        android:icon="@drawable/course_app_id"
+        android:title="Course" />
+
+    <!--    <item-->
+    <!--        android:id="@+id/randomCallFragment"-->
+    <!--        android:title="Random Call"-->
+    <!--        android:icon="@drawable/random_call_fragment_selector_kt" />-->
+
+    <item
+        android:id="@+id/notificationFragment"
+        android:icon="@drawable/notification_fragment_selector_kt"
+        android:title="Alerts" />
+
+    <item
+        android:id="@+id/menuFragment"
+        android:icon="@drawable/menu_fragment_selector_kt"
+        android:title="Menu" />
+
+</menu>

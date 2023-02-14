@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".kotlinCode.ui.activities.CreatePostKtActivity">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_add_post_kt"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="3dp"
+        android:gravity="center_vertical"
+        app:titleTextColor="@color/text_color_dark">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/save_button_add_post"
+            android:onClick="onPublishPost"
+            android:layout_marginHorizontal="15dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textColor="#EA4335"
+            app:strokeColor="#EA4335"
+            app:iconTint="#EA4335"
+            app:icon="@drawable/ic_check_bold"
+            app:iconSize="18dp"
+            app:iconGravity="textStart"
+            app:cornerRadius="8dp"
+            android:text="@string/publish"
+            app:iconPadding="10dp"
+            app:elevation="5dp"
+            android:letterSpacing="0"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!-- Top User Info -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_profile_author"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/user_low" />
+
+            <TextView
+                android:id="@+id/tv_profile_author_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                tools:text="Ikbal Sazib"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/iv_profile_author"
+                app:layout_constraintTop_toTopOf="@+id/iv_profile_author" />
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/spinner_add_post_kt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bithdate_layout_background"
+                app:layout_constraintStart_toEndOf="@+id/iv_profile_author"
+                app:layout_constraintTop_toBottomOf="@+id/tv_profile_author_name" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- Color Text -->
+        <LinearLayout
+            android:visibility="visible"
+            android:id="@+id/layout_text_view_area"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:gravity="center"
+            android:background="@color/color_post_bg_one"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:id="@+id/et_post_desc_kt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="23sp"
+                android:padding="10dp"
+                android:textColor="@color/colorPrimary"
+                android:background="@color/transparent"
+                android:hint="Write something and share..."
+                android:textColorHint="#DBDBDB"
+                android:textCursorDrawable="@drawable/color_cursor_custom"/>
+
+        </LinearLayout>
+
+        <View
+            android:visibility="gone"
+            android:id="@+id/view_border_kt"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:background="@color/viewColor"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"/>
+
+        <!--Color Picker-->
+        <HorizontalScrollView
+            android:visibility="visible"
+            android:id="@+id/horizontal_color_picker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="8dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginEnd="10dp"
+                    android:onClick="onPickColorOne">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/color_btn_one"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        app:cardBackgroundColor="@color/color_post_bg_one"
+                        app:cardElevation="0dp"
+                        app:cardCornerRadius="3dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/text_view_aa_one"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Aa"
+                        android:textColor="#F2F1F1"
+                        app:layout_constraintBottom_toBottomOf="@+id/color_btn_one"
+                        app:layout_constraintEnd_toEndOf="@+id/color_btn_one"
+                        app:layout_constraintStart_toStartOf="@+id/color_btn_one"
+                        app:layout_constraintTop_toTopOf="@+id/color_btn_one" />
+                    <ImageView
+                        android:visibility="visible"
+                        android:id="@+id/icon_check_mark_one"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_double_check"
+                        android:textColor="#F2F1F1"
+                        app:layout_constraintBottom_toBottomOf="@+id/color_btn_one"
+                        app:layout_constraintEnd_toEndOf="@+id/color_btn_one"
+                        app:layout_constraintStart_toStartOf="@+id/color_btn_one"
+                        app:layout_constraintTop_toTopOf="@+id/color_btn_one" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="8dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:onClick="onPickColorTwo">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/color_btn_two"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        app:cardBackgroundColor="@color/color_post_bg_two"
+                        app:cardElevation="0dp"
+                        app:cardCornerRadius="3dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:visibility="visible"
+                        android:id="@+id/text_view_aa_two"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Aa"
+                        android:textColor="#F2F1F1"
+                        app:layout_constraintBottom_toBottomOf="@+id/color_btn_two"
+                        app:layout_constraintEnd_toEndOf="@+id/color_btn_two"
+                        app:layout_constraintStart_toStartOf="@+id/color_btn_two"
+                        app:layout_constraintTop_toTopOf="@+id/color_btn_two" />
+                    <ImageView
+                        android:visibility="gone"
+                        android:id="@+id/icon_check_mark_two"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_double_check"
+                        android:textColor="#F2F1F1"
+                        app:layout_constraintBottom_toBottomOf="@+id/color_btn_two"
+                        app:layout_constraintEnd_toEndOf="@+id/color_btn_two"
+                        app:layout_constraintStart_toStartOf="@+id/color_btn_two"
+                        app:layout_constraintTop_toTopOf="@+id/color_btn_two" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="8dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:onClick="onPickColorThree">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/color_btn_three"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        app:cardBackgroundColor="@color/color_post_bg_three"
+                        app:cardElevation="0dp"
+                        app:cardCornerRadius="3dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:visibility="visible"
+                        android:id="@+id/text_view_aa_three"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Aa"
+                        android:textColor="#F2F1F1"
+                        app:layout_constraintBottom_toBottomOf="@+id/color_btn_three"
+                        app:layout_constraintEnd_toEndOf="@+id/color_btn_three"
+                        app:layout_constraintStart_toStartOf="@+id/color_btn_three"
+                        app:layout_constraintTop_toTopOf="@+id/color_btn_three" />
+                    <ImageView
+                        android:visibility="gone"
+                        android:id="@+id/icon_check_mark_three"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_double_check"
+                        android:textColor="#F2F1F1"
+                        app:layout_constraintBottom_toBottomOf="@+id/color_btn_three"
+                        app:layout_constraintEnd_toEndOf="@+id/color_btn_three"
+                        app:layout_constraintStart_toStartOf="@+id/color_btn_three"
+                        app:layout_constraintTop_toTopOf="@+id/color_btn_three" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="8dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:onClick="onPickColorFour">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/color_btn_four"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        app:cardBackgroundColor="@color/color_post_bg_four"
+                        app:cardElevation="0dp"
+                        app:cardCornerRadius="3dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:visibility="visible"
+                        android:id="@+id/text_view_aa_four"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Aa"
+                        android:textColor="#F2F1F1"
+                        app:layout_constraintBottom_toBottomOf="@+id/color_btn_four"
+                        app:layout_constraintEnd_toEndOf="@+id/color_btn_four"
+                        app:layout_constraintStart_toStartOf="@+id/color_btn_four"
+                        app:layout_constraintTop_toTopOf="@+id/color_btn_four" />
+                    <ImageView
+                        android:visibility="gone"
+                        android:id="@+id/icon_check_mark_four"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_double_check"
+                        android:textColor="#F2F1F1"
+                        app:layout_constraintBottom_toBottomOf="@+id/color_btn_four"
+                        app:layout_constraintEnd_toEndOf="@+id/color_btn_four"
+                        app:layout_constraintStart_toStartOf="@+id/color_btn_four"
+                        app:layout_constraintTop_toTopOf="@+id/color_btn_four" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="8dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:onClick="onPickColorFive">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/color_btn_five"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        app:cardBackgroundColor="@color/color_post_bg_five"
+                        app:cardElevation="0dp"
+                        app:cardCornerRadius="3dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:visibility="visible"
+                        android:id="@+id/text_view_aa_five"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Aa"
+                        android:textColor="#F2F1F1"
+                        app:layout_constraintBottom_toBottomOf="@+id/color_btn_five"
+                        app:layout_constraintEnd_toEndOf="@+id/color_btn_five"
+                        app:layout_constraintStart_toStartOf="@+id/color_btn_five"
+                        app:layout_constraintTop_toTopOf="@+id/color_btn_five" />
+                    <ImageView
+                        android:visibility="gone"
+                        android:id="@+id/icon_check_mark_five"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_double_check"
+                        android:textColor="#F2F1F1"
+                        app:layout_constraintBottom_toBottomOf="@+id/color_btn_five"
+                        app:layout_constraintEnd_toEndOf="@+id/color_btn_five"
+                        app:layout_constraintStart_toStartOf="@+id/color_btn_five"
+                        app:layout_constraintTop_toTopOf="@+id/color_btn_five" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="8dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:onClick="onPickColorSix">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/color_btn_six"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        app:cardBackgroundColor="@color/color_post_bg_six"
+                        app:cardElevation="0dp"
+                        app:cardCornerRadius="3dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:visibility="visible"
+                        android:id="@+id/text_view_aa_six"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Aa"
+                        android:textColor="#F2F1F1"
+                        app:layout_constraintBottom_toBottomOf="@+id/color_btn_six"
+                        app:layout_constraintEnd_toEndOf="@+id/color_btn_six"
+                        app:layout_constraintStart_toStartOf="@+id/color_btn_six"
+                        app:layout_constraintTop_toTopOf="@+id/color_btn_six" />
+                    <ImageView
+                        android:visibility="gone"
+                        android:id="@+id/icon_check_mark_six"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_double_check"
+                        android:textColor="#F2F1F1"
+                        app:layout_constraintBottom_toBottomOf="@+id/color_btn_six"
+                        app:layout_constraintEnd_toEndOf="@+id/color_btn_six"
+                        app:layout_constraintStart_toStartOf="@+id/color_btn_six"
+                        app:layout_constraintTop_toTopOf="@+id/color_btn_six" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="8dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:onClick="onPickColorSeven">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/color_btn_seven"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        app:cardBackgroundColor="@color/color_post_bg_seven"
+                        app:cardElevation="0dp"
+                        app:cardCornerRadius="3dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:visibility="visible"
+                        android:id="@+id/text_view_aa_seven"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Aa"
+                        android:textColor="#F2F1F1"
+                        app:layout_constraintBottom_toBottomOf="@+id/color_btn_seven"
+                        app:layout_constraintEnd_toEndOf="@+id/color_btn_seven"
+                        app:layout_constraintStart_toStartOf="@+id/color_btn_seven"
+                        app:layout_constraintTop_toTopOf="@+id/color_btn_seven" />
+                    <ImageView
+                        android:visibility="gone"
+                        android:id="@+id/icon_check_mark_seven"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_double_check"
+                        android:textColor="#F2F1F1"
+                        app:layout_constraintBottom_toBottomOf="@+id/color_btn_seven"
+                        app:layout_constraintEnd_toEndOf="@+id/color_btn_seven"
+                        app:layout_constraintStart_toStartOf="@+id/color_btn_seven"
+                        app:layout_constraintTop_toTopOf="@+id/color_btn_seven" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+        <!-- Image View -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:visibility="gone"
+            android:id="@+id/layout_image_view_area_kt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:id="@+id/post_picked_image_view_kt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/btn_remove_image"
+                android:onClick="onRemovePickImage"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="16dp"
+                android:background="@color/transparent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_close_bold" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- Link Preview Area -->
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/layout_link_preview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/iv_link_image"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="8dp"
+                android:scaleType="fitXY"
+                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp">
+
+                <TextView
+                    android:id="@+id/tv_link_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    tools:text="Online Courses- Learn Anything on Your Schedule | Udemy" />
+
+                <TextView
+                    android:id="@+id/tv_link_raw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/color_post_desc"
+                    tools:text="https://www.udemy.com/" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!-- Image Picker Button -->
+        <LinearLayout
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="25dp">
+
+            <TextView
+                android:id="@+id/btn_pick_image_for_post"
+                android:onClick="onPickImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/comment_layout_background_new"
+                android:drawableStart="@drawable/ic_post_image_new"
+                android:text="Pick an Image"
+                android:textColor="@color/text_color_dark"
+                android:drawablePadding="14dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:textSize="24sp"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/btn_pick_video_for_post"
+                android:onClick="onPickVideo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/comment_layout_background_new"
+                android:drawableStart="@drawable/ic_video_camera_logo"
+                android:text="Pick an Video"
+                android:textColor="@color/text_color_dark"
+                android:drawablePadding="14dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:textSize="24sp"
+                android:clickable="true"
+                android:focusable="true"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

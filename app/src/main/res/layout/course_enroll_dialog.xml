@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="15dp"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/close_dialog"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="15dp"
+                android:background="@color/transparent"
+                android:layout_alignParentEnd="true"
+                android:insetLeft="0dp"
+                android:insetTop="0dp"
+                android:insetRight="0dp"
+                android:insetBottom="0dp"
+                android:padding="0dp"
+                app:icon="@drawable/ic_close_call_24dp"
+                app:iconGravity="textStart"
+                app:iconPadding="0dp"
+                app:iconSize="22dp"
+                app:iconTint="@color/black"
+                android:stateListAnimator="@null"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/transparent"
+                app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.MyApp.Button.Circle" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv_profile_img"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_course_video" />
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="Jhon Web"
+                    android:textSize="21.5sp"
+                    android:textStyle="bold"
+                    android:textColor="#464646"/>
+
+                <TextView
+                    android:id="@+id/tv_playlist_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:text="12 Videos"
+                    android:textSize="18sp"
+                    android:textColor="#929292"/>
+
+                <RatingBar
+                    android:id="@+id/ratings"
+                    style="@style/Widget.AppCompat.RatingBar.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="20dp"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:progressBackgroundTint="#9B9B9B"
+                    android:progressTint="#EF0049"
+                    android:rating="3"
+                    android:stepSize="1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Price"
+                        android:layout_marginRight="15dp"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="24sp"
+                        android:layout_height="24sp"
+                        android:src="@drawable/ic_single_coin" />
+
+                    <TextView
+                        android:id="@+id/iv_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="500"
+                        android:layout_marginStart="5dp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/user_coin_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your available coins 12000"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/tv_insufficent_coin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Insufficient coin"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/red"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginHorizontal="12dp">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btn_enroll_cancel"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="55dp"
+                        android:text="Cancel"
+                        android:layout_marginEnd="25dp"
+                        android:layout_gravity="center"
+                        android:textSize="16sp"
+                        android:letterSpacing="0"
+                        app:icon="@drawable/ic_navigate_s"
+                        app:iconTint="@color/black"
+                        app:iconGravity="end"
+                        android:backgroundTint="#E3E3E3"
+                        android:textColor="@color/black"
+                        android:textAllCaps="false"
+                        android:fontFamily="@font/circularstd_book"
+                        app:cornerRadius="8dp"
+                        android:stateListAnimator="@null"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btn_enroll_confirm"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="55dp"
+                        android:text="Confirm"
+                        android:layout_gravity="center"
+                        android:textSize="16sp"
+                        android:letterSpacing="0"
+                        app:icon="@drawable/ic_navigate_s"
+                        app:iconTint="@color/black"
+                        app:iconGravity="end"
+                        android:backgroundTint="#E3E3E3"
+                        android:textColor="@color/black"
+                        android:textAllCaps="false"
+                        android:fontFamily="@font/circularstd_book"
+                        app:cornerRadius="8dp"
+                        android:stateListAnimator="@null"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:visibility="gone"
+                        android:id="@+id/btn_buy_coin"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="55dp"
+                        android:text="Buy Coin"
+                        android:layout_gravity="center"
+                        android:textSize="16sp"
+                        android:letterSpacing="0"
+                        app:icon="@drawable/ic_navigate_s"
+                        app:iconTint="@color/black"
+                        app:iconGravity="end"
+                        android:backgroundTint="#E3E3E3"
+                        android:textColor="@color/black"
+                        android:textAllCaps="false"
+                        android:fontFamily="@font/circularstd_book"
+                        app:cornerRadius="8dp"
+                        android:stateListAnimator="@null"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

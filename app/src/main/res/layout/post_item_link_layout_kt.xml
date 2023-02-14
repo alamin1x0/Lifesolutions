@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/feed_card_view_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_marginBottom="10dp">
+
+        <!-- Author Info -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_author_with_link_kt"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/user_low"
+                tools:ignore="ContentDescription"
+                app:civ_border_color="#FAFAFA"
+                app:civ_border_width="2dp"/>
+
+            <TextView
+                android:id="@+id/tv_author_name_with_link_kt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                tools:text="Ikbal Sazib"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_color_dark"
+                app:layout_constraintStart_toEndOf="@+id/iv_author_with_link_kt"
+                app:layout_constraintTop_toTopOf="@+id/iv_author_with_link_kt" />
+
+            <TextView
+                android:id="@+id/tv_date_with_link_item_kt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="2dp"
+                android:text="8 hour ago"
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@+id/iv_author_with_link_kt"
+                app:layout_constraintTop_toBottomOf="@+id/tv_author_name_with_link_kt" />
+
+            <ImageButton
+                android:id="@+id/btn_more_on_feed_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="12dp"
+                android:background="@color/transparent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/iv_author_with_link_kt"
+                app:srcCompat="@drawable/ic_more_vert_black_24dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- Show Post Desc -->
+        <LinearLayout
+            android:id="@+id/raw_text_layout_link_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_raw_text_link_post"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="@string/lorem"
+                android:textSize="18sp"
+                android:padding="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_post_link_img_item"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:minHeight="250dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_link_image_post_item_kt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:adjustViewBounds="true"
+                android:minHeight="220dp"
+                tools:src="@tools:sample/backgrounds/scenic"
+                tools:ignore="ContentDescription"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EEEEEE"
+                android:orientation="vertical"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="10dp">
+
+                <TextView
+                    android:id="@+id/tv_link_title_post_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:text="Online Courses- Learn Anything on Your Schedule | Udemy" />
+
+                <TextView
+                    android:id="@+id/tv_link_raw_post_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/color_post_desc"
+                    android:textSize="14sp"
+                    tools:text="https://www.udemy.com/" />
+            </LinearLayout>
+
+            
+
+        </LinearLayout>
+
+
+        <View
+            android:background="@color/viewColor"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:layout_constraintBottom_toTopOf="@+id/like_btn_with_link"
+            app:layout_constraintTop_toTopOf="@+id/like_btn_with_link">
+
+            <ImageView
+                android:id="@+id/like_btn_with_link"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/ic_star_outline"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                 />
+
+
+            <TextView
+                android:id="@+id/tv_like_count_with_link_item_kt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="48"
+                app:layout_constraintBottom_toBottomOf="@+id/like_btn_with_link"
+                app:layout_constraintStart_toEndOf="@+id/like_btn_with_link"
+                app:layout_constraintTop_toTopOf="@+id/like_btn_with_link"
+                app:layout_constraintVertical_bias="0.473" />
+
+            <LinearLayout
+                android:id="@+id/share_layout_with_link"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/share_button_post_item_kt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    app:srcCompat="@drawable/ic_share_kt" />
+
+                <TextView
+                    android:id="@+id/share_btn_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/com_facebook_share_button_text" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_btn_comment_with_link"
+                android:layout_width="100dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="15dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                app:layout_constraintBottom_toBottomOf="@+id/like_btn_with_link"
+                app:layout_constraintStart_toEndOf="@+id/like_btn_with_link"
+                app:layout_constraintTop_toTopOf="@+id/like_btn_with_link">
+
+                <ImageView
+                    android:id="@+id/comment_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    app:srcCompat="@drawable/ic_comment_kt" />
+
+                <TextView
+                    android:id="@+id/tv_comment_count_with_link_item_kt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="14" />
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/imgView_line"
+            android:layout_width="match_parent"
+            android:layout_height="9dp"
+            android:layout_marginTop="2dp"
+            android:background="@color/viewBackground"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

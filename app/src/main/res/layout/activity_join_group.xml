@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".kotlinCode.ui.activities.JoinGroupActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_join_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_join_group"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:gravity="center_vertical"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:title="Add Group Member"
+            app:titleTextColor="@color/text_color_dark">
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <LinearLayout
+        android:visibility="visible"
+        android:id="@+id/loading_bar_on_join_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_messenger_call">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottie_animation_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/loading" />
+
+        </LinearLayout> <!-- Loading Bar -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/join_group_view_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/group_image_view_thumb"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_group_placeholder" />
+
+        <TextView
+            android:id="@+id/tv_group_name_join"
+            android:background="@drawable/item_border_view_bg"
+            android:layout_margin="8dp"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Pagol Group"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/tv_group_cat_join"
+            android:background="@drawable/item_border_view_bg"
+            android:layout_margin="8dp"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Education"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/tv_group_type_join"
+            android:background="@drawable/item_border_view_bg"
+            android:layout_margin="8dp"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Public"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_group_member_join"
+            android:background="@drawable/item_border_view_bg"
+            android:layout_margin="8dp"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="18 member"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_join_group_action"
+            android:onClick="onJoinBtnClick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Join Group" />
+    </LinearLayout>
+</LinearLayout>

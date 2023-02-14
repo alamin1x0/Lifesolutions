@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kotlinCode.ui.activities.RandomCallOngoingActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/name_random_call"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/circular_std_medium"
+            android:text="@string/finding_your_partner"
+            android:textAlignment="center"
+            android:textColor="#636363"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+
+        <LinearLayout
+            android:id="@+id/random_call_banner_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="12dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/decline_random_call_kt"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottie_animation_user"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/user_random_call_animation" />
+
+
+        <ImageButton
+            android:id="@+id/decline_random_call_kt"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="48dp"
+            android:background="@drawable/login_button_background"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/ic_call_end_call_24dp"
+            android:tint="@color/white"
+            app:backgroundTint="#FF0902"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/starnote_random_page_icon_png" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutCallOnGoing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/layout_random_call_top_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:gravity="center"
+            app:layout_constraintTop_toTopOf="parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/circularstd_book"
+                android:text="Random Call"
+                android:textColor="#F8F8F8"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_on_random_call_connect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/circularstd_book"
+                android:text="Trying to connecting your partner"
+                android:textColor="#E6E6E6"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/main_call_sent_bg_profile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            />
+
+        <ImageView
+            android:id="@+id/fixed_bg_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.80"
+            android:background="@drawable/audio_call_gradient_bg"
+            tools:ignore="ContentDescription" />
+
+
+<!--        <ImageView-->
+<!--            android:id="@+id/back_button_call_screen"-->
+<!--            android:visibility="visible"-->
+<!--            android:onClick="onBackBtnClick"-->
+<!--            tools:ignore="ContentDescription"-->
+<!--            android:clickable="true"-->
+<!--            android:focusable="true"-->
+<!--            android:tint="@color/black"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            android:layout_marginTop="35dp"-->
+<!--            android:layout_marginStart="18dp"-->
+<!--            android:background="@color/transparent"-->
+<!--            android:src="@drawable/ic_arrow_back_black_24dp"-->
+<!--            android:layout_width="24dp"-->
+<!--            android:layout_height="24dp"-->
+<!--            android:alpha="0.8"/>-->
+
+        <LinearLayout
+            android:id="@+id/layout_call_top_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@+id/back_button_call_screen"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/call_heading_call_screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="18dp"
+                android:text="@string/voice_call"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/status_call_screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name_call_screen"
+                android:text="Connected"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+        <!-- ================== Ad Layout ==================-->
+        <LinearLayout
+            android:id="@+id/call_screen_facebook_banner_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="13dp"
+            app:layout_constraintTop_toBottomOf="@+id/timer_call_screen"
+            android:layout_below="@id/timer_call_screen"
+
+            />
+
+
+        <!--    <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                ads:adSize="LARGE_BANNER"
+                android:layout_below="@+id/layout_call_top_text_view"
+                android:layout_marginTop="10dp"
+                ads:adUnitId="ca-app-pub-2644386468608308/4219267567">
+            </com.google.android.gms.ads.AdView>-->
+        <!-- ================== Ad Layout ==================-->
+
+
+
+        <LinearLayout
+            android:id="@+id/layout_profile_thumb_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:orientation="vertical">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottie_animation_user2"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="10dp"
+                android:scaleType="centerCrop"
+                android:visibility="gone"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/user_animation" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image_call_screen"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/user"
+                android:visibility="visible"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="3dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/name_call_screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_profile_thumb_view"
+            app:layout_constraintTop_toBottomOf="@+id/layout_profile_thumb_view"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            tools:text="Md Ikbal Hossen"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/timer_call_screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name_call_screen"
+            app:layout_constraintTop_toBottomOf="@+id/name_call_screen"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textColor="#F8F8F8"
+            android:textSize="16sp"
+            tools:text="22: 30 min" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="25dp"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/call_button_holder"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageButton
+                android:id="@+id/loud_call_screen"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="20sp"
+                android:onClick="onSwitchSpeakerphoneClicked"
+                android:background="@drawable/calling_button_background"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/ic_speaker_call_white"
+                tools:ignore="ContentDescription" />
+
+            <ImageButton
+                android:id="@+id/mute_call_screen"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:onClick="onLocalAudioMuteClicked"
+                android:background="@drawable/calling_button_background"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/ic_mic_call_white"
+                tools:ignore="ContentDescription" />
+
+            <ImageButton
+                android:id="@+id/decline_call_screen"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="20sp"
+                android:background="@drawable/login_button_background"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/ic_call_end_white"
+                app:backgroundTint="#FF0902"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

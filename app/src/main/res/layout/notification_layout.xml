@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_notification"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="horizontal"
+    android:paddingStart="5dp"
+    android:paddingTop="8dp"
+    android:paddingEnd="1dp"
+    android:paddingBottom="8dp">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_notification"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="2dp"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:id="@+id/details_field_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_toStartOf="@+id/more_button_notification"
+        android:layout_toEndOf="@+id/image_notification"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name_notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingTop="2dp"
+            android:paddingEnd="1dp"
+            android:textColor="@color/text_color_dark"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/message_notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="500"
+            android:paddingStart="12dp"
+            android:paddingEnd="1dp"
+            android:paddingBottom="2dp"
+            android:textColor="@color/text_color_dark"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/notification_date_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:paddingStart="10dp"
+            android:paddingTop="2dp"
+            android:paddingEnd="1dp"
+            android:textColor="@color/text_color_light"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/more_button_notification"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/ic_more_vert_black_24dp"
+        tools:ignore="ContentDescription" />
+
+
+    <LinearLayout
+        android:id="@+id/request_accept_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/details_field_notification"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_accept_notification_item"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/green_overlay"
+            android:backgroundTint="@color/green_overlay"
+            android:text="@string/accept"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:icon="@drawable/ic_baseline_check_24"
+            app:iconGravity="textStart"
+            app:iconPadding="3dp"
+            app:iconTint="@color/white" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_delete_notification_item"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/red_overlay"
+            android:backgroundTint="@color/red_overlay"
+            android:text="@string/delete"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:icon="@drawable/ic_baseline_close_24"
+            app:iconGravity="textStart"
+            app:iconPadding="3dp"
+            app:iconTint="@color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>

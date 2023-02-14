@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".kotlinCode.ui.activities.CourseSingleActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_course_single"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:gravity="center_vertical"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:title="Add Group Member"
+            app:titleTextColor="@color/text_color_dark" />
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_marginVertical="20dp"
+                android:paddingHorizontal="15dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_course_video" />
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Learn English"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#575757"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:id="@+id/tv_playlist_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12 Videos"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:textColor="#FFC300"
+                    android:layout_marginTop="8dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Price"
+                        android:layout_marginRight="15dp"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="24sp"
+                        android:layout_height="24sp"
+                        android:src="@drawable/ic_single_coin" />
+
+                    <TextView
+                        android:id="@+id/course_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="500"
+                        android:layout_marginStart="5dp"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/course_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/lorem"
+                    android:textStyle="normal"
+                    android:textSize="16sp"
+                    android:textColor="#646464"
+                    android:layout_marginTop="8dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_enroll_course"
+                    android:onClick="onEnroll"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Enroll Now"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_gravity="center"
+                    android:textSize="16sp"
+                    android:letterSpacing="0"
+                    app:icon="@drawable/ic_navigate_s"
+                    app:iconTint="@color/white"
+                    app:iconGravity="end"
+                    android:backgroundTint="#0EA0E9"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/circularstd_book"
+                    app:cornerRadius="8dp"
+                    android:stateListAnimator="@null"/>
+                <com.google.android.material.button.MaterialButton
+                    android:visibility="gone"
+                    android:id="@+id/btn_view_enrolled"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="You Owned This Course"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_gravity="center"
+                    android:textSize="15sp"
+                    android:letterSpacing="0"
+                    android:backgroundTint="#07DF73"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:clickable="false"
+                    android:fontFamily="@font/circularstd_book"
+                    app:cornerRadius="8dp"
+                    android:stateListAnimator="@null"/>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_course_video"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp" />
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

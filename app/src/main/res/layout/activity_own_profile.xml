@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kotlinCode.ui.activities.OwnProfileActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_own_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/background_profile"
+                android:background="@drawable/cardview_background"
+                android:layout_width="match_parent"
+                android:layout_height="240dp">
+
+                <ImageView
+                    android:id="@+id/cover_picture_profile"
+                    android:src="@drawable/audio_call_gradient_bg"
+                    android:scaleType="centerCrop"
+                    tools:ignore="ContentDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+                <ImageButton
+                    android:id="@+id/btn_upload_cover_photo"
+                    android:layout_alignParentEnd="true"
+                    tools:ignore="ContentDescription"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:tint="@color/text_color_dark"
+                    android:background="@color/transparent"
+                    android:src="@drawable/ic_photo_camera"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+
+            </RelativeLayout>
+
+            <ImageButton
+                android:id="@+id/back_button_profile"
+                tools:ignore="ContentDescription"
+                android:clickable="true"
+                android:focusable="true"
+                android:tint="@color/white"
+                android:onClick="backToHome"
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="12dp"
+                android:background="#00123456"
+                android:src="@drawable/ic_arrow_back_black_24dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image_profile"
+                android:layout_below="@+id/background_profile"
+                android:layout_marginTop="-80dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/user"
+                android:layout_gravity="start"
+                android:layout_marginEnd="10dp"
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:scaleType="centerCrop"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/white"/>
+
+            <ImageButton
+                android:id="@+id/btn_upload_profile_photo"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignEnd="@id/profile_image_profile"
+                android:layout_alignBottom="@+id/profile_image_profile"
+                android:layout_marginEnd="5dp"
+                android:tint="@color/text_color_dark"
+                android:layout_marginBottom="16dp"
+                android:background="@color/transparent"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/ic_photo_camera"
+                tools:ignore="ContentDescription" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_full_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Tammy Olson"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/iv_verified_badge"
+                android:layout_width="22dp"
+                android:layout_height="24.5dp"
+                android:layout_marginStart="12dp"
+                android:src="@drawable/ic_badge_verified" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginVertical="8dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_bio_profile"
+                android:textSize="18sp"
+                android:text="Programming Expert"
+                android:textColor="@color/text_color_dark" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginTop="15dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_edit_info"
+                android:layout_width="0dp"
+                android:layout_height="58dp"
+                android:layout_weight="1"
+                android:text="Edit Profile"
+                android:onClick="onClickEditProfile"
+                android:textSize="16sp"
+                android:letterSpacing="0"
+                android:layout_marginEnd="25dp"
+                app:icon="@drawable/ic_navigate_s"
+                app:iconGravity="end"
+                android:backgroundTint="#2489FD"
+                android:textColor="@color/colorPrimary"
+                android:textAllCaps="false"
+                android:fontFamily="@font/circularstd_book"
+                app:cornerRadius="8dp"
+                android:stateListAnimator="@null"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_privacy"
+                android:onClick="onClickPrivacy"
+                android:layout_width="140dp"
+                android:layout_height="58dp"
+                android:text="Privacy"
+                android:textSize="16sp"
+                android:letterSpacing="0"
+                app:icon="@drawable/ic_lock_outline_black_24dp"
+                app:iconGravity="start"
+                app:iconTint="@color/black"
+                android:backgroundTint="#E9E9E9"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:fontFamily="@font/circularstd_book"
+                app:cornerRadius="8dp"
+                android:stateListAnimator="@null"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginTop="15dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_apply_refer_code"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:text="Apply Refer Code"
+                android:onClick="onClickApplyReferCode"
+                android:textSize="16sp"
+                android:letterSpacing="0"
+                app:icon="@drawable/ic_check_circle_black_24dp"
+                app:iconGravity="textStart"
+                app:iconPadding="8dp"
+                android:backgroundTint="@color/colorMain"
+                android:textColor="@color/colorPrimary"
+                android:textAllCaps="false"
+                android:fontFamily="@font/circularstd_book"
+                app:cornerRadius="8dp"
+                android:stateListAnimator="@null"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:id="@+id/talk_time_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:drawableStart="@drawable/call_duration"
+                android:drawablePadding="15dp"
+                android:padding="10dp"
+                android:textSize="17sp"
+                app:drawableTint="@color/text_color_dark" />
+
+            <TextView
+                android:id="@+id/last_call_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:drawableStart="@drawable/lastcall"
+                android:drawablePadding="15dp"
+                android:padding="10dp"
+                android:textSize="17sp"
+                tools:text="Last call"
+                app:drawableTint="@color/text_color_dark" />
+
+
+            <TextView
+                android:id="@+id/address_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:drawableStart="@drawable/ic_location"
+                android:drawablePadding="15dp"
+                android:padding="10dp"
+                android:textSize="17sp"
+                tools:text="Mirpur-10, Dhaka"
+                app:drawableTint="@color/text_color_dark" />
+
+            <TextView
+                android:id="@+id/phone_profile"
+                android:padding="10dp"
+                android:drawableStart="@drawable/ic_call_black_24dp"
+                android:textSize="17sp"
+                android:layout_marginStart="5dp"
+                android:drawablePadding="15dp"
+                tools:text="+8801773253900"
+                app:drawableTint="@color/text_color_dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:id="@+id/email_profile"
+                android:padding="10dp"
+                android:drawableStart="@drawable/ic_email_black_24dp"
+                android:textSize="17sp"
+                android:layout_marginStart="5dp"
+                android:drawablePadding="15dp"
+                tools:text="abcd@gmail.com"
+                app:drawableTint="@color/text_color_dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:id="@+id/studentInfo_profile"
+                android:padding="10dp"
+                android:drawableStart="@drawable/ic_school_black_24dp"
+                android:textSize="17sp"
+                android:layout_marginStart="5dp"
+                android:drawablePadding="15dp"
+                tools:text="Studied at DIU"
+                app:drawableTint="@color/text_color_dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/blood_group_profile"
+                android:padding="10dp"
+                android:drawableStart="@drawable/ic_blood_drop"
+                android:textSize="17sp"
+                android:layout_marginStart="5dp"
+                android:drawablePadding="15dp"
+                tools:text="B+"
+                app:drawableTint="@color/text_color_dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/birth_date_profile"
+                android:padding="10dp"
+                android:drawableStart="@drawable/ic_cake_black_24dp"
+                android:textSize="17sp"
+                android:layout_marginStart="5dp"
+                android:drawablePadding="15dp"
+                tools:text="20/10/1998"
+                app:drawableTint="@color/text_color_dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/joined_profile"
+                android:padding="10dp"
+                android:drawableStart="@drawable/ic_supervisor_account_black_24dp"
+                android:textSize="17sp"
+                android:layout_marginStart="5dp"
+                android:drawablePadding="15dp"
+                tools:text="Jun 2020"
+                app:drawableTint="@color/text_color_dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginHorizontal="12dp">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_friend"
+                android:layout_marginEnd="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Friends"
+                android:textStyle="bold"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_friends_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="112 Friends"
+            android:layout_marginTop="5dp"
+            android:paddingHorizontal="12dp"
+            android:layout_marginBottom="15dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_friend_list_on_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.button.MaterialButton
+            android:onClick="onClickSeeAllFriends"
+            android:id="@+id/btn_see_all_friend"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="12dp"
+            android:text="See All Friends"
+            android:textSize="16sp"
+            android:letterSpacing="0"
+            android:layout_marginHorizontal="20dp"
+            android:backgroundTint="#E4E6EB"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:fontFamily="@font/circularstd_book"
+            app:cornerRadius="8dp"
+            android:stateListAnimator="@null"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_user_post_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_see_all_posts"
+                android:onClick="onClickSeeAllPosts"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginTop="12dp"
+                android:text="See All Posts"
+                android:textSize="16sp"
+                android:letterSpacing="0"
+                android:layout_marginHorizontal="20dp"
+                android:backgroundTint="#E4E6EB"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:fontFamily="@font/circularstd_book"
+                app:cornerRadius="8dp"
+                android:stateListAnimator="@null"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

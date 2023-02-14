@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "584386566914",
+    "firebase_url": "https://lifesolutions-bd-default-rtdb.firebaseio.com",
+    "project_id": "lifesolutions-bd",
+    "storage_bucket": "lifesolutions-bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584386566914:android:29c5c631521a80c3e0401b",
+        "android_client_info": {
+          "package_name": "com.lifesolutions.bd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuuAKQ9ornIS411ArJeba415ZXkDm0Dsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584386566914:android:8797e85032514d99e0401b",
+        "android_client_info": {
+          "package_name": "com.stardigiinternational.starnotee"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuuAKQ9ornIS411ArJeba415ZXkDm0Dsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

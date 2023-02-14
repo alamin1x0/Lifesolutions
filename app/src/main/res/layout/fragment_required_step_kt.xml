@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#F3F3F3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".kotlinCode.ui.registration.steps.RequiredStepKtFragment">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:visibility="gone"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/s_starnote_logo_horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="30dp"
+            android:background="@drawable/s_card_registration_bg"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+            <TextView
+                android:id="@+id/sign_up_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/circular_std_medium"
+                android:text="Sign up"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginVertical="10dp"-->
+<!--                android:gravity="center">-->
+
+<!--                <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                    android:layout_width="225dp"-->
+<!--                    android:layout_height="wrap_content">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/textView8"-->
+<!--                        android:layout_width="25dp"-->
+<!--                        android:layout_height="25dp"-->
+<!--                        android:layout_marginStart="24dp"-->
+<!--                        android:layout_marginTop="8dp"-->
+<!--                        android:background="@drawable/s_circle_fill_bg"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="1"-->
+<!--                        android:textColor="@color/colorPrimary"-->
+<!--                        app:layout_constraintStart_toStartOf="parent"-->
+<!--                        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/textView9"-->
+<!--                        android:layout_width="25dp"-->
+<!--                        android:layout_height="25dp"-->
+<!--                        android:layout_marginTop="8dp"-->
+<!--                        android:layout_marginEnd="24dp"-->
+<!--                        android:background="@drawable/s_circle_outline_bg"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="2"-->
+<!--                        android:textColor="#8A8A8A"-->
+<!--                        app:layout_constraintEnd_toEndOf="parent"-->
+<!--                        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--                    <View-->
+<!--                        android:id="@+id/textView10"-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_height="1dp"-->
+<!--                        android:background="#CFCFCF"-->
+<!--                        app:layout_constraintBottom_toBottomOf="@+id/textView8"-->
+<!--                        app:layout_constraintEnd_toStartOf="@+id/textView9"-->
+<!--                        app:layout_constraintStart_toEndOf="@+id/textView8"-->
+<!--                        app:layout_constraintTop_toTopOf="@+id/textView9" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/textView11"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="6dp"-->
+<!--                        android:text="Required"-->
+<!--                        android:textSize="12sp"-->
+<!--                        android:textColor="@color/colorMain"-->
+<!--                        app:layout_constraintEnd_toEndOf="@+id/textView8"-->
+<!--                        app:layout_constraintStart_toStartOf="@+id/textView8"-->
+<!--                        app:layout_constraintTop_toBottomOf="@+id/textView8" />-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/textView12"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="4dp"-->
+<!--                        android:text="Additional"-->
+<!--                        android:textSize="12sp"-->
+<!--                        android:textColor="#CFCFCF"-->
+<!--                        app:layout_constraintEnd_toEndOf="@+id/textView9"-->
+<!--                        app:layout_constraintStart_toStartOf="@+id/textView9"-->
+<!--                        app:layout_constraintTop_toBottomOf="@+id/textView9" />-->
+<!--                </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--            </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image_view_reg_kt"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/user_low" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_pick_image"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+                    android:layout_width="140dp"
+                    android:layout_height="45dp"
+                    android:gravity="center"
+                    android:letterSpacing="0.02"
+                    android:text="Upload Image"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorMain"
+                    app:cornerRadius="8dp"
+                    app:elevation="5dp"
+                    app:iconPadding="10dp"
+                    app:strokeColor="@color/colorMain" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxBackgroundColor="#FFF"
+                    app:boxStrokeColor="#ACACAC"
+                    android:hint="First Name"
+                    app:hintTextColor="@color/colorMain"
+                    android:textColorHint="#B9B9B9"
+                    android:layout_marginVertical="5dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_first_name_reg_kt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:inputType="text"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxBackgroundColor="#FFF"
+                    app:boxStrokeColor="#ACACAC"
+                    android:hint="Last Name"
+                    app:hintTextColor="@color/colorMain"
+                    android:textColorHint="#B9B9B9"
+                    android:layout_marginVertical="5dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_last_name_reg_kt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:inputType="text"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxBackgroundColor="#FFF"
+                    app:boxStrokeColor="#ACACAC"
+                    android:hint="Select Gender"
+                    app:hintTextColor="@color/colorMain"
+                    android:textColorHint="#B9B9B9"
+                    android:layout_marginVertical="5dp">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/et_dropdown_gender_reg_kt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="end"
+                android:layout_marginTop="25dp">
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_reg_next_page"
+                    android:layout_width="150dp"
+                    android:layout_height="58dp"
+                    android:text="Next"
+                    android:textSize="16sp"
+                    android:letterSpacing="0"
+                    app:icon="@drawable/ic_navigate_s"
+                    app:iconGravity="end"
+                    android:backgroundTint="@color/colorMain"
+                    android:textColor="@color/colorPrimary"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/circularstd_book"
+                    app:cornerRadius="8dp"
+                    android:stateListAnimator="@null"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

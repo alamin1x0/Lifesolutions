@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/comment_item"
+    android:paddingTop="8dp"
+    android:paddingStart="5dp"
+    android:paddingEnd="1dp"
+    android:paddingBottom="8dp"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/commenter_image"
+            android:layout_width="35dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="2dp"
+            android:scaleType="centerCrop"
+            android:layout_height="35dp"/>
+
+        <LinearLayout
+            android:id="@+id/layout_comment_view_item"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/comment_layout_background_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingEnd="1dp"
+                android:id="@+id/commenter_name"
+                android:textColor="@color/text_color_dark"
+                android:paddingTop="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="@string/app_name"
+                android:textSize="17sp" />
+
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingEnd="1dp"
+                android:layout_gravity="start"
+                android:id="@+id/comment_date_time"
+                android:textColor="@color/text_color_light"
+                android:paddingTop="2dp"
+                android:layout_width="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:text="@string/app_name"
+                android:textSize="12sp" />
+
+            <TextView
+                android:paddingStart="12dp"
+                android:paddingEnd="1dp"
+                android:textIsSelectable="true"
+                android:textColor="@color/text_color_dark"
+                android:textSize="15sp"
+                android:text="@string/app_name"
+                android:maxLength="500"
+                android:paddingBottom="2dp"
+                android:id="@+id/comment_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_reply_view"
+        android:layout_marginStart="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/replay_count_comment"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="2dp"
+            android:textStyle="bold"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/blackOverlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/replay_comment"
+            android:layout_toEndOf="@+id/replay_count_comment"
+            android:text="@string/reply"
+            android:textStyle="bold"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/blackOverlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+ </LinearLayout>

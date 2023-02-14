@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".Activities.LeaderBoardActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar_leader_board"
+        app:elevation="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Light">
+
+        <androidx.appcompat.widget.Toolbar
+            app:titleTextColor="@color/text_color_dark"
+            android:gravity="center_vertical"
+            android:id="@+id/toolbar_leader_board"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+        <RelativeLayout
+            android:paddingTop="8dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="1dp"
+            android:gravity="center_vertical"
+            android:paddingBottom="8dp"
+            android:orientation="horizontal"
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image_leader_board"
+                android:layout_width="100dp"
+                android:src="@drawable/user"
+                android:layout_marginStart="2dp"
+                android:scaleType="centerCrop"
+                android:layout_height="100dp"/>
+
+            <RelativeLayout
+                android:layout_toEndOf="@+id/profile_image_leader_board"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:paddingStart="10dp"
+                    android:paddingEnd="1dp"
+                    android:id="@+id/user_name_leader_board"
+                    android:textColor="@color/text_color_dark"
+                    android:paddingTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/my_coins_leader_board"
+                    android:layout_below="@+id/user_name_leader_board"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="1dp"
+                    android:textColor="@color/text_color_light"
+                    android:textSize="18sp"
+                    android:layout_marginTop="5dp"
+                    android:drawablePadding="12dp"
+                    android:drawableStart="@drawable/ic_coins_leader_board"
+                    android:text="@string/app_name"
+                    android:paddingBottom="2dp"
+                    android:maxLength="50"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/my_rank"
+                android:textSize="18sp"
+                android:textColor="@color/text_color_dark"
+                android:textStyle="bold"
+                android:layout_alignParentStart="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/user_rank_leader_board"
+                android:textSize="18sp"
+                android:textColor="@color/colorMain"
+                android:textStyle="bold"
+                android:text="Not Ranked"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="RelativeOverlap" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image_first_user_leader_board"
+                    android:layout_width="80dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/user"
+                    android:layout_marginStart="8dp"
+                    android:scaleType="centerCrop"
+                    android:layout_height="80dp"/>
+
+                <TextView
+                    android:id="@+id/name_first_user_leader_board"
+                    android:layout_below="@+id/profile_image_first_user_leader_board"
+                    android:textAlignment="center"
+                    android:paddingEnd="2dp"
+                    android:paddingStart="2dp"
+                    android:maxLines="1"
+                    android:textColor="@color/text_color_dark"
+                    android:paddingTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/coin_first_user_leader_board"
+                    android:layout_below="@+id/name_first_user_leader_board"
+                    android:textAlignment="center"
+                    android:paddingEnd="2dp"
+                    android:paddingStart="2dp"
+                    android:textColor="@color/text_color_light"
+                    android:paddingTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/online_status_user_layout"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="1st"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/rank_background_leader_board"
+                    android:layout_alignTop="@+id/profile_image_first_user_leader_board"
+                    android:layout_alignEnd="@+id/profile_image_first_user_leader_board"
+                    android:layout_marginEnd="-12dp"
+                    android:layout_marginTop="-7dp"
+                    android:src="@color/green" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="50dp"
+                android:layout_alignParentStart="true"
+                android:orientation="vertical"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image_second_user_leader_board"
+                    android:layout_width="70dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/user"
+                    android:layout_marginStart="8dp"
+                    android:scaleType="centerCrop"
+                    android:layout_height="70dp"/>
+
+                <TextView
+                    android:layout_below="@+id/profile_image_second_user_leader_board"
+                    android:textAlignment="center"
+                    android:paddingEnd="2dp"
+                    android:maxLines="1"
+                    android:paddingStart="2dp"
+                    android:id="@+id/name_second_user_leader_board"
+                    android:textColor="@color/text_color_dark"
+                    android:paddingTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/coin_second_user_leader_board"
+                    android:layout_below="@+id/name_second_user_leader_board"
+                    android:textAlignment="center"
+                    android:paddingEnd="2dp"
+                    android:paddingStart="2dp"
+                    android:textColor="@color/text_color_light"
+                    android:paddingTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="2nd"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/rank_background_leader_board"
+                    android:layout_alignTop="@+id/profile_image_second_user_leader_board"
+                    android:layout_alignEnd="@+id/profile_image_second_user_leader_board"
+                    android:layout_marginEnd="-12dp"
+                    android:layout_marginTop="-7dp"
+                    android:src="@color/green" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="50dp"
+                android:layout_alignParentEnd="true"
+                android:orientation="vertical"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image_third_user_leader_board"
+                    android:layout_width="70dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/user"
+                    android:layout_marginStart="8dp"
+                    android:scaleType="centerCrop"
+                    android:layout_height="70dp"/>
+
+                <TextView
+                    android:layout_below="@+id/profile_image_third_user_leader_board"
+                    android:textAlignment="center"
+                    android:paddingEnd="2dp"
+                    android:paddingStart="2dp"
+                    android:maxLines="1"
+                    android:id="@+id/name_third_user_leader_board"
+                    android:textColor="@color/text_color_dark"
+                    android:paddingTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/coin_third_user_leader_board"
+                    android:layout_below="@+id/name_third_user_leader_board"
+                    android:textAlignment="center"
+                    android:paddingEnd="2dp"
+                    android:paddingStart="2dp"
+                    android:textColor="@color/text_color_light"
+                    android:paddingTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="3rd"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/rank_background_leader_board"
+                    android:layout_alignTop="@+id/profile_image_third_user_leader_board"
+                    android:layout_alignEnd="@+id/profile_image_third_user_leader_board"
+                    android:layout_marginEnd="-12dp"
+                    android:layout_marginTop="-7dp"
+                    android:src="@color/green" />
+
+            </RelativeLayout>
+
+<!--
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monthly"
+                android:id="@+id/monthlybtn"/>
+-->
+
+        </RelativeLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_leader_board"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

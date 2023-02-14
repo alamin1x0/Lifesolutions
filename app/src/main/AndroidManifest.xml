@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.lifesolutions.bd">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.hardware.sensor.proximity" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:name="com.lifesolutions.bd.kotlinCode.common.App"
+        android:allowBackup="true"
+        android:fullBackupContent="false"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:resizeableActivity="false"
+        android:roundIcon="@drawable/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="q">
+        <activity
+            android:name="com.lifesolutions.bd.Agora.AgoraRandomVoiceCallActivity"
+            android:exported="false"
+            android:theme="@style/AppThemeKotlinNoActionBar" />
+
+        <activity android:exported="false" android:name="com.lifesolutions.bd.Activities.Leaderboard_Mothly" />
+        <activity android:exported="false" android:name="com.lifesolutions.bd.Activities.Courses_" />
+
+        <activity
+            android:name="com.lifesolutions.bd.Activities.CustomCallRecieve"
+            android:exported="false" />
+        <activity
+            android:name="com.lifesolutions.bd.Activities.CustomCallActivity"
+            android:exported="false"
+            android:theme="@style/AppThemeKotlinNoActionBar" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.lifesolutions.bd.Activities.CourseWebView"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.AddDataActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:exported="false" android:name="com.lifesolutions.bd.kotlinCode.ui.activities.AllCampusAmbassadorView" />
+        <activity
+            android:name="com.lifesolutions.bd.Activities.Campuss_AmbassadorActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.ViewStream"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.Activities.StreamViewList"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity android:name="com.lifesolutions.bd.Activities.ChooseLive" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.StreamActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.VideoViewActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.SearchFriendActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+
+        <receiver  android:name="com.lifesolutions.bd.kotlinCode.services.NotificationReceiver" />
+
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.TestNotiActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.FriendRequestListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.AllUserPostActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.AllFriendsListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.UserProfileActivityKt"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.OwnProfileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <!--        <activity-->
+        <!--            android:name=".kotlinCode.ui.activities.StayConnectActivity"-->
+        <!--            android:screenOrientation="portrait"-->
+        <!--            android:theme="@style/AppThemeKotlinNoActionBar"-->
+        <!--            tools:ignore="LockedOrientationActivity" />-->
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.YoutubePlayActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:exported="false"
+            android:theme="@style/AppThemeKotlinNoActionBar" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.BuyCoinActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.CourseSingleActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.AmbassadorSingleActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.TeacherSingleActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.AllCoursesActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.AllAmbassadorActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.AllTeachersActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity android:name="com.lifesolutions.bd.javaCode.ui.activities.MyTest2Activity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.user.UserFriendListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.WebViewActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.MiniAppListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.EditGroupActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.AllActiverUserActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.AllGroupListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.AcceptMemberActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.JoinGroupActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.GroupInfoKtActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.GroupMessageActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.AddMemberActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.CreateChatGroupActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.PersonalMessageActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.AboutDeveloperActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.CreatePostKtActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity">
+
+<!--             <intent-filter> -->
+<!--             <action android:name="android.intent.action.SEND" /> -->
+<!--              -->
+<!--             <category android:name="android.intent.category.DEFAULT" /> -->
+<!--              -->
+
+
+<!--             <data android:mimeType="image/*" /> -->
+<!--             </intent-filter> -->
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.activities.RandomCallOngoingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.splash.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeSplashScreen"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.intro.IntroKtActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.home.MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.user.EditProfileInfoKtActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlin"
+            tools:ignore="LockedOrientationActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:exported="false"
+                android:value="com.lifesolutions.bd.Activities.ProfileActivity" />
+        </activity>
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.registration.RegistrationKtActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.ui.auth.LoginKtActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.kotlinCode.KotlinBaseActivity"
+            android:exported="false"
+            android:theme="@style/AppThemeKotlinNoActionBar" />
+        <activity android:name="com.lifesolutions.bd.Test.TestActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.Activities.AboutUsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Profile"
+            tools:ignore="LockedOrientationActivity" />
+        <!--                <activity-->
+        <!--                    android:name=".Activities.TranslateActivity"-->
+        <!--                    android:screenOrientation="portrait"-->
+        <!--                    android:theme="@style/AppTheme.NoActionBar"-->
+        <!--                    tools:ignore="LockedOrientationActivity" />-->
+        <!--                <activity-->
+        <!--                    android:name=".Activities.NewsActivity"-->
+        <!--                    android:screenOrientation="portrait"-->
+        <!--                    android:theme="@style/AppTheme.NoActionBar"-->
+        <!--                    tools:ignore="LockedOrientationActivity" />-->
+        <activity
+            android:name="com.lifesolutions.bd.Activities.AmbassadorActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.Activities.VideoListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.Activities.VideoPlayActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.lifesolutions.bd.Activities.FriendListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <!--        <activity-->
+        <!--            android:name=".Activities.EcommerceActivity"-->
+        <!--            android:screenOrientation="portrait"-->
+        <!--            android:theme="@style/AppTheme.NoActionBar"-->
+        <!--            tools:ignore="LockedOrientationActivity" />-->
+        <!--        <activity-->
+        <!--            android:name=".Activities.OnlineGameActivity"-->
+        <!--            android:theme="@style/AppTheme.NoActionBar" />-->
+        <activity
+            android:name="com.lifesolutions.bd.Activities.VideoCallScreenActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.Profile" />
+        <activity
+            android:name="com.lifesolutions.bd.Activities.IncomingVideoCallScreenActivity"
+            android:autoRemoveFromRecents="true"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme.Profile" />
+        <activity
+            android:name="com.lifesolutions.bd.Activities.IncomingCallScreenActivity"
+            android:autoRemoveFromRecents="true"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Profile"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.Activities.CallScreenActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Profile"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.Activities.SearchUsersActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.Activities.AddGroupMemberActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="LockedOrientationActivity" /> <!-- <activity -->
+        <!-- android:name=".Activities.GroupViewActivity" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" -->
+        <!-- tools:ignore="LockedOrientationActivity" /> -->
+        <!-- <activity -->
+        <!-- android:name=".Activities.GroupChatActivity" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" -->
+        <!-- tools:ignore="LockedOrientationActivity" /> -->
+        <activity
+            android:name="com.lifesolutions.bd.Activities.ApplyForTeacherActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeKotlinNoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+
+        <service
+            android:name="com.lifesolutions.bd.Services.SinchService"
+            android:exported="true" /> <!-- <service -->
+        <!-- android:name=".Notifications.FirebaseMessaging" -->
+        <!-- android:enabled="true" -->
+        <!-- android:exported="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.google.firebase.MESSAGING_EVENT" /> -->
+        <!-- </intent-filter> -->
+        <!-- </service> -->
+        <service
+            android:name="com.lifesolutions.bd.Services.TempService"
+            android:exported="true" />
+
+        <activity
+            android:name="com.lifesolutions.bd.Activities.FindFriendsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="LockedOrientationActivity" /> <!-- <activity -->
+        <!-- android:name=".Activities.GroupChatListActivity" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" -->
+        <!-- tools:ignore="LockedOrientationActivity" /> -->
+        <activity
+            android:name="com.lifesolutions.bd.Activities.CommentReplyActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="LockedOrientationActivity" /> <!-- <activity -->
+        <!-- android:name=".Activities.NotificationActivity" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" -->
+        <!-- tools:ignore="LockedOrientationActivity" /> -->
+        <activity
+            android:name="com.lifesolutions.bd.Activities.AudioPlayerActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.Activities.SettingsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="LockedOrientationActivity" /> <!-- <activity -->
+        <!-- android:name=".Activities.RandomCallActivity" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:theme="@style/AppTheme.RandomCall" -->
+        <!-- tools:ignore="LockedOrientationActivity" /> -->
+        <activity
+            android:name="com.lifesolutions.bd.Activities.LeaderBoardActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.Activities.QuizActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.Activities.RequestListActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.Activities.RequestAcceptActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.Activities.ReferActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Profile"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.Activities.ViewImageActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.Activities.UserProfileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Profile"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.Activities.DonateActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Default"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.Activities.VideoActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Default"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.Activities.ExamActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Default"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.Activities.SchoolActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Default"
+            tools:ignore="LockedOrientationActivity" /> <!-- <activity -->
+        <!-- android:name=".Activities.ShowActivity" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:theme="@style/AppTheme.Profile" -->
+        <!-- tools:ignore="LockedOrientationActivity" /> -->
+        <activity
+            android:name="com.lifesolutions.bd.Activities.CallingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Profile"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.lifesolutions.bd.Activities.GameActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Profile"
+            tools:ignore="LockedOrientationActivity" /> <!-- <activity -->
+        <!-- android:name=".Activities.MessageActivity" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" -->
+        <!-- tools:ignore="LockedOrientationActivity" /> &lt;!&ndash; <activity &ndash;&gt; -->
+        <!-- android:name=".Activities.ChatListActivity" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" -->
+        <!-- tools:ignore="LockedOrientationActivity" /> -->
+        <activity
+            android:name="com.lifesolutions.bd.Activities.SearchActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="LockedOrientationActivity" /> <!-- <activity -->
+        <!-- android:name=".Activities.PasswordRecoveryActivity" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:theme="@style/AppTheme.FullScreen" -->
+        <!-- tools:ignore="LockedOrientationActivity" /> -->
+        <activity
+            android:name="com.lifesolutions.bd.Activities.FullPostActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="LockedOrientationActivity" /> <!-- <activity -->
+        <!-- android:name=".Activities.MyPostListActivity" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" -->
+        <!-- tools:ignore="LockedOrientationActivity" /> -->
+        <!-- <activity -->
+        <!-- android:name=".Activities.DashboardActivity" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:theme="@style/AppTheme.CustomTheme" -->
+        <!-- tools:ignore="LockedOrientationActivity" /> -->
+        <!-- <activity -->
+        <!-- android:name=".Activities.EditProfileActivity" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" -->
+        <!-- tools:ignore="LockedOrientationActivity" /> -->
+        <!-- <activity -->
+        <!-- android:name=".Activities.AddPostActivity" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" -->
+        <!-- tools:ignore="LockedOrientationActivity" /> -->
+        <activity
+            android:name="com.lifesolutions.bd.Activities.ProfileActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="LockedOrientationActivity" /> <!-- <activity -->
+        <!-- android:name=".Activities.HomeActivity" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" -->
+        <!-- tools:ignore="LockedOrientationActivity" /> -->
+        <!-- <activity -->
+        <!-- android:name=".Activities.RegisterTwoActivity" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:theme="@style/AppTheme.FullScreen" -->
+        <!-- tools:ignore="LockedOrientationActivity" /> -->
+        <!-- <activity -->
+        <!-- android:name=".Activities.LoginActivity" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:theme="@style/AppTheme.FullScreen" -->
+        <!-- tools:ignore="LockedOrientationActivity" /> -->
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:exported="false"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity> <!-- Android Image Cropper -->
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:exported="false"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:exported="false"
+            android:resource="@drawable/app_icon" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:exported="false"
+            android:resource="@array/preloaded_fonts" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="@string/file_provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <service
+            android:name="com.lifesolutions.bd.kotlinCode.services.FirebaseService"
+            android:exported="false"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        <service android:name="com.lifesolutions.bd.kotlinCode.services.OngoingAlertService" />
+    </application>
+
+</manifest>

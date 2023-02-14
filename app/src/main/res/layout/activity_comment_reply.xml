@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".Activities.CommentReplyActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar_comment_reply"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            app:titleTextColor="@color/text_color_dark"
+            app:title="Comments reply"
+            android:gravity="center_vertical"
+            android:id="@+id/toolbar_comments_reply"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+        <ProgressBar
+            android:id="@+id/progressbar_comments_reply"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:layout_marginTop="-7dp"
+            android:layout_marginBottom="-7dp"
+            android:visibility="visible" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/comment_layout_reply"
+        android:layout_below="@+id/appbar_comment_reply"
+        android:layout_marginTop="10dp"
+        android:padding="3dp"
+        android:layout_marginEnd="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_comment_reply"
+            android:layout_width="50dp"
+            android:layout_marginStart="2dp"
+            android:scaleType="centerCrop"
+            android:layout_height="50dp"/>
+
+        <LinearLayout
+            android:layout_marginStart="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_toEndOf="@+id/image_comment_reply"
+            android:orientation="vertical"
+            android:background="@drawable/comment_layout_background_new"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingEnd="1dp"
+                android:id="@+id/name_comment_reply"
+                android:textColor="@color/text_color_dark"
+                android:paddingTop="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="@string/app_name"
+                android:textSize="17sp" />
+
+            <TextView
+                android:paddingStart="10dp"
+                android:paddingEnd="1dp"
+                android:id="@+id/comment_reply_date_time"
+                android:textColor="@color/text_color_light"
+                android:paddingTop="2dp"
+                android:layout_width="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:text="@string/app_name"
+                android:textSize="12sp" />
+
+            <TextView
+                android:paddingStart="12dp"
+                android:paddingEnd="1dp"
+                android:textColor="@color/text_color_dark"
+                android:textSize="15sp"
+                android:text="@string/app_name"
+                android:maxLength="500"
+                android:paddingBottom="2dp"
+                android:id="@+id/message_comment_reply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/comment_layout_reply"
+        android:id="@+id/recyclerView_comment_reply"
+        android:layout_above="@+id/input_layout_reply"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/input_layout_reply"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/commenter_photo_reply"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/user_low"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+        <RelativeLayout
+            android:id="@+id/message_layout_reply"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/comment_layout_background_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/comment_field_reply"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="5dp"
+                android:padding="3dp"
+                android:textColorHint="@color/text_color_light"
+                android:textColor="@color/text_color_dark"
+                android:hint="@string/write_your_reply"
+                android:background="@color/transparent"
+                android:layout_toStartOf="@+id/comment_btn__reply"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageButton
+                android:id="@+id/comment_btn__reply"
+                android:layout_alignParentEnd="true"
+                android:padding="3dp"
+                android:layout_centerVertical="true"
+                android:tint="@color/white"
+                android:src="@drawable/ic_send_black_24dp"
+                app:backgroundTint="@color/colorMain"
+                android:background="@drawable/profile_image_button_background"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                tools:ignore="ContentDescription" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
