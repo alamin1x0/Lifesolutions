@@ -1,4 +1,4 @@
-# Starnote Social Android App
+# Lifesolutions BD Android App
 
 This is a Project offered by Stardigi International
 
@@ -8,7 +8,7 @@ SoftLab IT & Software
 
 Email: softlabit.info@gmail.com
 
-Date: 30 May, 2020
+Date: 01 May, 2023
 
 ## Code copyright
 @SoftLab IT & Software
